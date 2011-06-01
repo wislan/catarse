@@ -2,6 +2,7 @@ source 'http://rubygems.org'
 source 'http://gems.github.com'
 gem 'rails', '3.0.3'
 gem 'pg'
+gem 'rake','0.8.7'
 gem 'haml'
 gem 'slim'
 gem 'compass'
@@ -29,7 +30,7 @@ gem 'unicode'
 gem 'routing-filter'
 gem 'http_accept_language'
 group :test, :development do
-  gem 'capybara', ">= 0.4.0"
+  gem 'capybara', ">= 0.4.1.2"
   gem 'launchy'
   gem 'database_cleaner'
   gem 'steak', "~> 1.1.0"

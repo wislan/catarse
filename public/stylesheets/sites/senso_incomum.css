@@ -1,7 +1,7 @@
 /* line 3, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site {
   background: #ff9900;
-  text-shadow: transparent 0px 0px 0px;
+  text-shadow: transparent, 0px, 0px, 0px;
 }
 /* line 6, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site a {
@@ -14,53 +14,61 @@ body#site a:hover {
 /* line 11, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site form input[type=submit] {
   color: white;
-  text-shadow: transparent 0 0 0;
+  text-shadow: transparent, 0, 0, 0;
   font-weight: normal;
   background-color: #87bd29;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #87bd29), color-stop(100%, #87bd29));
-  background-image: -moz-linear-gradient(top, #87bd29 0%, #87bd29 100%);
-  background-image: linear-gradient(top, #87bd29 0%, #87bd29 100%);
-  -moz-box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 6px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 6px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 6px 0;
-  box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 6px 0;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #87bd29), color-stop(100%, #87bd29));
+  background-image: -webkit-linear-gradient(top, #87bd29, #87bd29);
+  background-image: -moz-linear-gradient(top, #87bd29, #87bd29);
+  background-image: -o-linear-gradient(top, #87bd29, #87bd29);
+  background-image: linear-gradient(top, #87bd29, #87bd29);
+  -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
 }
 /* line 18, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site form input[type=submit]:hover {
   background-color: #8cc22e;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #8cc22e), color-stop(100%, #8cc22e));
-  background-image: -moz-linear-gradient(top, #8cc22e 0%, #8cc22e 100%);
-  background-image: linear-gradient(top, #8cc22e 0%, #8cc22e 100%);
-  -moz-box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 6px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 6px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 6px 0;
-  box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 6px 0;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8cc22e), color-stop(100%, #8cc22e));
+  background-image: -webkit-linear-gradient(top, #8cc22e, #8cc22e);
+  background-image: -moz-linear-gradient(top, #8cc22e, #8cc22e);
+  background-image: -o-linear-gradient(top, #8cc22e, #8cc22e);
+  background-image: linear-gradient(top, #8cc22e, #8cc22e);
+  -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
 }
 /* line 22, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site form input[type=submit]:active {
-  text-shadow: transparent 0 0 0;
+  text-shadow: transparent, 0, 0, 0;
   background-color: #87bd29;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #87bd29), color-stop(100%, #87bd29));
-  background-image: -moz-linear-gradient(top, #87bd29 0%, #87bd29 100%);
-  background-image: linear-gradient(top, #87bd29 0%, #87bd29 100%);
-  -moz-box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 6px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 6px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 6px 0;
-  box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 6px 0;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #87bd29), color-stop(100%, #87bd29));
+  background-image: -webkit-linear-gradient(top, #87bd29, #87bd29);
+  background-image: -moz-linear-gradient(top, #87bd29, #87bd29);
+  background-image: -o-linear-gradient(top, #87bd29, #87bd29);
+  background-image: linear-gradient(top, #87bd29, #87bd29);
+  -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
 }
 /* line 27, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site form input[type=submit]:disabled {
   color: #717171;
-  text-shadow: transparent 0 0 0;
+  text-shadow: transparent, 0, 0, 0;
   padding: 10px 15px;
   background-color: #bcbcbc;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #bcbcbc), color-stop(100%, #bcbcbc));
-  background-image: -moz-linear-gradient(top, #bcbcbc 0%, #bcbcbc 100%);
-  background-image: linear-gradient(top, #bcbcbc 0%, #bcbcbc 100%);
-  -moz-box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 6px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 6px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 6px 0;
-  box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 6px 0;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #bcbcbc), color-stop(100%, #bcbcbc));
+  background-image: -webkit-linear-gradient(top, #bcbcbc, #bcbcbc);
+  background-image: -moz-linear-gradient(top, #bcbcbc, #bcbcbc);
+  background-image: -o-linear-gradient(top, #bcbcbc, #bcbcbc);
+  background-image: linear-gradient(top, #bcbcbc, #bcbcbc);
+  -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
 }
 /* line 34, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site form input.ok, body#site form textarea.ok {
@@ -88,11 +96,11 @@ body#site form select.loading {
 }
 /* line 46, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site .important {
-  -moz-box-shadow: rgba(0, 0, 0, 0.25) -1px 1px 6px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.25) -1px 1px 6px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.25) -1px 1px 6px 0;
-  box-shadow: rgba(0, 0, 0, 0.25) -1px 1px 6px 0;
-  text-shadow: transparent 0 0 0;
+  -moz-box-shadow: -1px 1px 6px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: -1px 1px 6px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: -1px 1px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: -1px 1px 6px rgba(0, 0, 0, 0.25);
+  text-shadow: transparent, 0, 0, 0;
   background-color: #ffaaaa;
 }
 /* line 50, ../../../app/stylesheets/sites/senso_incomum.sass */
@@ -103,9 +111,11 @@ body#site .overlay {
 /* line 53, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #login, body#site #project_description #project_video #project_embed {
   background-color: #4a99c0;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #6ab9e0), color-stop(50%, #5aa9d0), color-stop(100%, #4a99c0));
-  background-image: -moz-linear-gradient(top, #6ab9e0 0%, #5aa9d0 50%, #4a99c0 100%);
-  background-image: linear-gradient(top, #6ab9e0 0%, #5aa9d0 50%, #4a99c0 100%);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6ab9e0), color-stop(50%, #5aa9d0), color-stop(100%, #4a99c0));
+  background-image: -webkit-linear-gradient(top, #6ab9e0, #5aa9d0, #4a99c0);
+  background-image: -moz-linear-gradient(top, #6ab9e0, #5aa9d0, #4a99c0);
+  background-image: -o-linear-gradient(top, #6ab9e0, #5aa9d0, #4a99c0);
+  background-image: linear-gradient(top, #6ab9e0, #5aa9d0, #4a99c0);
   border: 5px solid white;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -113,11 +123,11 @@ body#site #login, body#site #project_description #project_video #project_embed {
   -ms-border-radius: 4px;
   -khtml-border-radius: 4px;
   border-radius: 4px;
-  -moz-box-shadow: transparent 0 0 0 0;
-  -webkit-box-shadow: transparent 0 0 0 0;
-  -o-box-shadow: transparent 0 0 0 0;
-  box-shadow: transparent 0 0 0 0;
-  text-shadow: transparent 0 0 0;
+  -moz-box-shadow: transparent, 0, 0, 0;
+  -webkit-box-shadow: transparent, 0, 0, 0;
+  -o-box-shadow: transparent, 0, 0, 0;
+  box-shadow: transparent, 0, 0, 0;
+  text-shadow: transparent, 0, 0, 0;
 }
 /* line 60, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #login h1, body#site #project_description #project_video #project_embed h1 {
@@ -127,13 +137,15 @@ body#site #login h1, body#site #project_description #project_video #project_embe
 }
 /* line 64, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #login a.close, body#site #project_description #project_video #project_embed a.close {
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #6ab9e0), color-stop(50%, #5aa9d0), color-stop(100%, #4a99c0));
-  background-image: -moz-linear-gradient(top, #6ab9e0 0%, #5aa9d0 50%, #4a99c0 100%);
-  background-image: linear-gradient(top, #6ab9e0 0%, #5aa9d0 50%, #4a99c0 100%);
-  -moz-box-shadow: transparent 0 0 0 0;
-  -webkit-box-shadow: transparent 0 0 0 0;
-  -o-box-shadow: transparent 0 0 0 0;
-  box-shadow: transparent 0 0 0 0;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6ab9e0), color-stop(50%, #5aa9d0), color-stop(100%, #4a99c0));
+  background-image: -webkit-linear-gradient(top, #6ab9e0, #5aa9d0, #4a99c0);
+  background-image: -moz-linear-gradient(top, #6ab9e0, #5aa9d0, #4a99c0);
+  background-image: -o-linear-gradient(top, #6ab9e0, #5aa9d0, #4a99c0);
+  background-image: linear-gradient(top, #6ab9e0, #5aa9d0, #4a99c0);
+  -moz-box-shadow: transparent, 0, 0, 0;
+  -webkit-box-shadow: transparent, 0, 0, 0;
+  -o-box-shadow: transparent, 0, 0, 0;
+  box-shadow: transparent, 0, 0, 0;
 }
 /* line 68, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #login #project_box_embed textarea, body#site #project_description #project_video #project_embed #project_box_embed textarea {
@@ -177,10 +189,10 @@ body#site #user a {
 }
 /* line 92, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #user a img#display_image {
-  -moz-box-shadow: transparent 0 0 0 0;
-  -webkit-box-shadow: transparent 0 0 0 0;
-  -o-box-shadow: transparent 0 0 0 0;
-  box-shadow: transparent 0 0 0 0;
+  -moz-box-shadow: transparent, 0, 0, 0;
+  -webkit-box-shadow: transparent, 0, 0, 0;
+  -o-box-shadow: transparent, 0, 0, 0;
+  box-shadow: transparent, 0, 0, 0;
   border: 3px solid #515b64;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -198,10 +210,10 @@ body#site #user .hover {
 }
 /* line 101, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #user .hover img#display_image {
-  -moz-box-shadow: transparent 0 0 0 0;
-  -webkit-box-shadow: transparent 0 0 0 0;
-  -o-box-shadow: transparent 0 0 0 0;
-  box-shadow: transparent 0 0 0 0;
+  -moz-box-shadow: transparent, 0, 0, 0;
+  -webkit-box-shadow: transparent, 0, 0, 0;
+  -o-box-shadow: transparent, 0, 0, 0;
+  box-shadow: transparent, 0, 0, 0;
   border: 3px solid white;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -247,11 +259,11 @@ body#site #header h1 {
 body#site #header h1 a {
   color: white;
   font-size: 36px;
-  text-shadow: transparent 0px 0px 0px;
+  text-shadow: transparent, 0px, 0px, 0px;
 }
 /* line 124, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #header h1 a:hover {
-  text-shadow: transparent 0px 0px 0px;
+  text-shadow: transparent, 0px, 0px, 0px;
 }
 /* line 126, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #content_header_wrapper {
@@ -278,10 +290,10 @@ body#site #content_wrapper #content_header {
   -ms-border-radius: 0px;
   -khtml-border-radius: 0px;
   border-radius: 0px;
-  -moz-box-shadow: transparent 0 0 0 0;
-  -webkit-box-shadow: transparent 0 0 0 0;
-  -o-box-shadow: transparent 0 0 0 0;
-  box-shadow: transparent 0 0 0 0;
+  -moz-box-shadow: transparent, 0, 0, 0;
+  -webkit-box-shadow: transparent, 0, 0, 0;
+  -o-box-shadow: transparent, 0, 0, 0;
+  box-shadow: transparent, 0, 0, 0;
   background-color: transparent;
   color: #ff9900;
   text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px;
@@ -313,11 +325,11 @@ body#site #content_wrapper #content_header h1 a {
 /* line 154, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #content_wrapper #content_header h1 a:hover {
   color: #7ecdf4;
-  text-shadow: transparent 0px 0px 0px;
+  text-shadow: transparent, 0px, 0px, 0px;
 }
 /* line 157, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #content_wrapper #content_header h2 {
-  text-shadow: transparent 0px 0px 0px;
+  text-shadow: transparent, 0px, 0px, 0px;
   text-align: left;
   padding: 0;
   color: #4c4c4c;
@@ -338,7 +350,7 @@ body#site #content_wrapper #content_header h2 a {
 /* line 166, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #content_wrapper #content_header h2 a:hover {
   color: #7ecdf4;
-  text-shadow: transparent 0px 0px 0px;
+  text-shadow: transparent, 0px, 0px, 0px;
 }
 /* line 169, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #content_wrapper #content_header #badge {
@@ -612,11 +624,10 @@ body#site #embed .project_box .project_progress .progress_info ul {
   margin: 0;
   padding: 0;
   border: 0;
-  outline: 0;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 51, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+/* line 60, ../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 body#site #embed .project_box .project_progress .progress_info ul li {
   list-style-image: none;
   list-style-type: none;
@@ -627,20 +638,26 @@ body#site #embed .project_box .project_progress .progress_info ul li {
   padding-left: 12px;
   padding-right: 12px;
 }
-/* line 43, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+/* line 48, ../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 body#site #embed .project_box .project_progress .progress_info ul li:first-child, body#site #embed .project_box .project_progress .progress_info ul li.first {
-  padding-left: 0px;
+  padding-left: 0;
 }
-/* line 44, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
-body#site #embed .project_box .project_progress .progress_info ul li:last-child, body#site #embed .project_box .project_progress .progress_info ul li.last {
-  padding-right: 0px;
+/* line 49, ../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+body#site #embed .project_box .project_progress .progress_info ul li:last-child {
+  padding-right: 0;
+}
+/* line 50, ../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+body#site #embed .project_box .project_progress .progress_info ul li.last {
+  padding-right: 0;
 }
 /* line 318, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site .navigation .prev, body#site .navigation .next {
   background-color: #ff9900;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #ffbb00), color-stop(50%, #ff9900), color-stop(100%, #ff7700));
-  background-image: -moz-linear-gradient(top, #ffbb00 0%, #ff9900 50%, #ff7700 100%);
-  background-image: linear-gradient(top, #ffbb00 0%, #ff9900 50%, #ff7700 100%);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffbb00), color-stop(50%, #ff9900), color-stop(100%, #ff7700));
+  background-image: -webkit-linear-gradient(top, #ffbb00, #ff9900, #ff7700);
+  background-image: -moz-linear-gradient(top, #ffbb00, #ff9900, #ff7700);
+  background-image: -o-linear-gradient(top, #ffbb00, #ff9900, #ff7700);
+  background-image: linear-gradient(top, #ffbb00, #ff9900, #ff7700);
 }
 /* line 321, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site .navigation .prev:disabled, body#site .navigation .next:disabled {
@@ -648,16 +665,19 @@ body#site .navigation .prev:disabled, body#site .navigation .next:disabled {
   border: 3px solid #dddddd;
   text-shadow: rgba(230, 230, 230, 0.85) 1px 1px 0px;
   background-color: #aaaaaa;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #bbbbbb), color-stop(100%, #888888));
-  background-image: -moz-linear-gradient(top, #bbbbbb 0%, #888888 100%);
-  background-image: linear-gradient(top, #bbbbbb 0%, #888888 100%);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #bbbbbb), color-stop(100%, #888888));
+  background-image: -webkit-linear-gradient(top, #bbbbbb, #888888);
+  background-image: -moz-linear-gradient(top, #bbbbbb, #888888);
+  background-image: -o-linear-gradient(top, #bbbbbb, #888888);
+  background-image: linear-gradient(top, #bbbbbb, #888888);
 }
 /* line 327, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site .navigation .prev:disabled:hover, body#site .navigation .next:disabled:hover {
-  -moz-transform: scale(1);
-  -webkit-transform: scale(1);
-  -o-transform: scale(1);
-  transform: scale(1);
+  -moz-transform: scale(1, 1);
+  -webkit-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
 }
 /* line 330, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site .on_the_spot_editing:after {
@@ -683,7 +703,7 @@ body#site #explore_projects #explore_menu ul li a {
 /* line 347, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #explore_projects #explore_menu ul li a.selected, body#site #explore_projects #explore_menu ul li a:hover {
   background-color: #6ab9e0;
-  text-shadow: transparent 0 0 0;
+  text-shadow: transparent, 0, 0, 0;
 }
 /* line 350, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #project_header {
@@ -698,11 +718,10 @@ body#site #project_description #project_menu ul {
   margin: 0;
   padding: 0;
   border: 0;
-  outline: 0;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 51, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+/* line 60, ../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 body#site #project_description #project_menu ul li {
   list-style-image: none;
   list-style-type: none;
@@ -713,13 +732,17 @@ body#site #project_description #project_menu ul li {
   padding-left: 4px;
   padding-right: 4px;
 }
-/* line 43, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+/* line 48, ../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 body#site #project_description #project_menu ul li:first-child, body#site #project_description #project_menu ul li.first {
-  padding-left: 0px;
+  padding-left: 0;
 }
-/* line 44, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
-body#site #project_description #project_menu ul li:last-child, body#site #project_description #project_menu ul li.last {
-  padding-right: 0px;
+/* line 49, ../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+body#site #project_description #project_menu ul li:last-child {
+  padding-right: 0;
+}
+/* line 50, ../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+body#site #project_description #project_menu ul li.last {
+  padding-right: 0;
 }
 /* line 359, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #project_description #project_menu ul li a {
@@ -739,12 +762,12 @@ body#site #project_description #project_menu ul li a .count {
 /* line 370, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #project_description #project_menu ul li a:hover {
   background-color: #6abadf;
-  text-shadow: transparent 0 0 0;
+  text-shadow: transparent, 0, 0, 0;
 }
 /* line 374, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #project_description #project_menu ul li.selected a {
   background-color: #6abadf;
-  text-shadow: transparent 0 0 0;
+  text-shadow: transparent, 0, 0, 0;
 }
 /* line 377, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #project_description #project_menu ul li.selected img {
@@ -755,10 +778,10 @@ body#site #project_description #project_menu ul li.selected img {
 }
 /* line 383, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #project_description #project_video iframe {
-  -moz-box-shadow: transparent 0 0 0 0;
-  -webkit-box-shadow: transparent 0 0 0 0;
-  -o-box-shadow: transparent 0 0 0 0;
-  box-shadow: transparent 0 0 0 0;
+  -moz-box-shadow: transparent, 0, 0, 0;
+  -webkit-box-shadow: transparent, 0, 0, 0;
+  -o-box-shadow: transparent, 0, 0, 0;
+  box-shadow: transparent, 0, 0, 0;
 }
 /* line 385, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #project_description #project_video #project_share {
@@ -779,10 +802,10 @@ body#site #project_description #project_video #project_share {
   -khtml-border-bottom-right-radius: 0;
   border-bottom-right-radius: 0;
   border: none;
-  -moz-box-shadow: transparent 0 0 0 0;
-  -webkit-box-shadow: transparent 0 0 0 0;
-  -o-box-shadow: transparent 0 0 0 0;
-  box-shadow: transparent 0 0 0 0;
+  -moz-box-shadow: transparent, 0, 0, 0;
+  -webkit-box-shadow: transparent, 0, 0, 0;
+  -o-box-shadow: transparent, 0, 0, 0;
+  box-shadow: transparent, 0, 0, 0;
   text-align: left;
   font-size: 12px;
   font-weight: bold;
@@ -794,12 +817,11 @@ body#site #project_description #project_video #project_share ul {
   margin: 0;
   padding: 0;
   border: 0;
-  outline: 0;
   overflow: hidden;
   *zoom: 1;
   width: 100%;
 }
-/* line 51, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+/* line 60, ../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 body#site #project_description #project_video #project_share ul li {
   list-style-image: none;
   list-style-type: none;
@@ -810,13 +832,17 @@ body#site #project_description #project_video #project_share ul li {
   padding-left: 12px;
   padding-right: 12px;
 }
-/* line 43, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+/* line 48, ../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 body#site #project_description #project_video #project_share ul li:first-child, body#site #project_description #project_video #project_share ul li.first {
-  padding-left: 0px;
+  padding-left: 0;
 }
-/* line 44, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
-body#site #project_description #project_video #project_share ul li:last-child, body#site #project_description #project_video #project_share ul li.last {
-  padding-right: 0px;
+/* line 49, ../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+body#site #project_description #project_video #project_share ul li:last-child {
+  padding-right: 0;
+}
+/* line 50, ../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+body#site #project_description #project_video #project_share ul li.last {
+  padding-right: 0;
 }
 /* line 402, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #project_description #project_video #project_share ul li {
@@ -863,7 +889,7 @@ body#site #project_description #project_video #project_share a {
 /* line 424, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #project_description #project_video #project_share a:hover {
   color: #5f6975;
-  text-shadow: transparent 0 0 0;
+  text-shadow: transparent, 0, 0, 0;
 }
 /* line 427, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #project_description #project_video #project_share img, body#site #project_description #project_video #project_share a img {
@@ -903,10 +929,10 @@ body#site #project_back_info #back_project {
   -ms-border-radius: 4px;
   -khtml-border-radius: 4px;
   border-radius: 4px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.2) -2px 2px 6px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.2) -2px 2px 6px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.2) -2px 2px 6px 0;
-  box-shadow: rgba(0, 0, 0, 0.2) -2px 2px 6px 0;
+  -moz-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.2);
 }
 /* line 450, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #project_back_info #back_project .info {
@@ -931,7 +957,7 @@ body#site #project_back_info #back_project .project_warning {
   margin: 0 8px;
   font-size: 11px;
   line-height: 14px;
-  text-shadow: transparent 0 0 0;
+  text-shadow: transparent, 0, 0, 0;
 }
 /* line 467, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #project_back_info #back_project .successful, body#site #project_back_info #back_project .not_successful, body#site #project_back_info #back_project .waiting_confirmation {
@@ -947,11 +973,13 @@ body#site #project_back_info #back_project form {
 }
 /* line 473, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #project_back_info #back_project form input[type=submit] {
-  text-shadow: transparent 0 0 0;
+  text-shadow: transparent, 0, 0, 0;
   background-color: #8aca52;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #8aca52), color-stop(50%, #8aca52), color-stop(51%, #74ad44), color-stop(100%, #74ad44));
-  background-image: -moz-linear-gradient(top, #8aca52 0%, #8aca52 50%, #74ad44 51%, #74ad44 100%);
-  background-image: linear-gradient(top, #8aca52 0%, #8aca52 50%, #74ad44 51%, #74ad44 100%);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8aca52), color-stop(50%, #8aca52), color-stop(51%, #74ad44), color-stop(100%, #74ad44));
+  background-image: -webkit-linear-gradient(top, #8aca52, #8aca52 50%, #74ad44 51%, #74ad44);
+  background-image: -moz-linear-gradient(top, #8aca52, #8aca52 50%, #74ad44 51%, #74ad44);
+  background-image: -o-linear-gradient(top, #8aca52, #8aca52 50%, #74ad44 51%, #74ad44);
+  background-image: linear-gradient(top, #8aca52, #8aca52 50%, #74ad44 51%, #74ad44);
   text-transform: lowercase;
   font-weight: normal;
   font-size: 20px;
@@ -960,24 +988,28 @@ body#site #project_back_info #back_project form input[type=submit] {
 /* line 481, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #project_back_info #back_project form input[type=submit]:hover {
   background-color: #8aca52;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #8fcf57), color-stop(50%, #8fcf57), color-stop(51%, #79b249), color-stop(100%, #79b249));
-  background-image: -moz-linear-gradient(top, #8fcf57 0%, #8fcf57 50%, #79b249 51%, #79b249 100%);
-  background-image: linear-gradient(top, #8fcf57 0%, #8fcf57 50%, #79b249 51%, #79b249 100%);
-  text-shadow: transparent 0 0 0;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8fcf57), color-stop(50%, #8fcf57), color-stop(51%, #79b249), color-stop(100%, #79b249));
+  background-image: -webkit-linear-gradient(top, #8fcf57, #8fcf57 50%, #79b249 51%, #79b249);
+  background-image: -moz-linear-gradient(top, #8fcf57, #8fcf57 50%, #79b249 51%, #79b249);
+  background-image: -o-linear-gradient(top, #8fcf57, #8fcf57 50%, #79b249 51%, #79b249);
+  background-image: linear-gradient(top, #8fcf57, #8fcf57 50%, #79b249 51%, #79b249);
+  text-shadow: transparent, 0, 0, 0;
 }
 /* line 485, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #project_back_info #back_project form input[type=submit]:active {
   padding: 18px 23px 16px 25px;
-  text-shadow: transparent 0 0 0;
+  text-shadow: transparent, 0, 0, 0;
 }
 /* line 488, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #project_back_info #back_project form input[type=submit]:disabled {
   color: #888888;
-  text-shadow: transparent 0 0 0;
+  text-shadow: transparent, 0, 0, 0;
   background-color: #aaaaaa;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #aaaaaa), color-stop(50%, #aaaaaa), color-stop(51%, #bbbbbb), color-stop(100%, #bbbbbb));
-  background-image: -moz-linear-gradient(top, #aaaaaa 0%, #aaaaaa 50%, #bbbbbb 51%, #bbbbbb 100%);
-  background-image: linear-gradient(top, #aaaaaa 0%, #aaaaaa 50%, #bbbbbb 51%, #bbbbbb 100%);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #aaaaaa), color-stop(50%, #aaaaaa), color-stop(51%, #bbbbbb), color-stop(100%, #bbbbbb));
+  background-image: -webkit-linear-gradient(top, #aaaaaa, #aaaaaa 50%, #bbbbbb 51%, #bbbbbb);
+  background-image: -moz-linear-gradient(top, #aaaaaa, #aaaaaa 50%, #bbbbbb 51%, #bbbbbb);
+  background-image: -o-linear-gradient(top, #aaaaaa, #aaaaaa 50%, #bbbbbb 51%, #bbbbbb);
+  background-image: linear-gradient(top, #aaaaaa, #aaaaaa 50%, #bbbbbb 51%, #bbbbbb);
   text-transform: lowercase;
   font-weight: normal;
   font-size: 20px;
@@ -985,10 +1017,10 @@ body#site #project_back_info #back_project form input[type=submit]:disabled {
 }
 /* line 497, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #project_back_info #rewards {
-  -moz-box-shadow: rgba(0, 0, 0, 0.2) -2px 2px 6px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.2) -2px 2px 6px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.2) -2px 2px 6px 0;
-  box-shadow: rgba(0, 0, 0, 0.2) -2px 2px 6px 0;
+  -moz-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.2);
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
   -o-border-radius: 8px;
@@ -1005,7 +1037,7 @@ body#site #project_back_info #rewards h1 {
   text-align: left;
   padding-left: 24px;
   text-transform: lowercase;
-  text-shadow: transparent 0 0 0;
+  text-shadow: transparent, 0, 0, 0;
   background-color: #6abae0 !important;
   -moz-border-radius-topleft: 8px;
   -webkit-border-top-left-radius: 8px;
@@ -1039,7 +1071,7 @@ body#site #project_back_info #rewards ul h1 {
   text-transform: none;
   font-weight: bold;
   color: #3c3c3c !important;
-  text-shadow: transparent 0 0 0;
+  text-shadow: transparent, 0, 0, 0;
   padding: 10px 0 !important;
 }
 /* line 526, ../../../app/stylesheets/sites/senso_incomum.sass */
@@ -1068,11 +1100,11 @@ body#site #project_back_info #rewards .reward_backers img {
 body#site #how_it_works {
   background-color: #d3e9f4;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  -moz-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px 0;
-  box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px 0;
-  text-shadow: transparent 0 0 0;
+  -moz-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  text-shadow: transparent, 0, 0, 0;
 }
 /* line 545, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #how_it_works strong {
@@ -1098,10 +1130,10 @@ body#site #guidelines_form label {
 }
 /* line 559, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #video_embed iframe {
-  -moz-box-shadow: transparent 0 0 0 0;
-  -webkit-box-shadow: transparent 0 0 0 0;
-  -o-box-shadow: transparent 0 0 0 0;
-  box-shadow: transparent 0 0 0 0;
+  -moz-box-shadow: transparent, 0, 0, 0;
+  -webkit-box-shadow: transparent, 0, 0, 0;
+  -o-box-shadow: transparent, 0, 0, 0;
+  box-shadow: transparent, 0, 0, 0;
 }
 /* line 561, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #video_embed h1 {
@@ -1112,7 +1144,7 @@ body#site #video_embed h1 {
 /* line 565, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #video_embed h1 a {
   color: #6ab9e0;
-  text-shadow: transparent 0 0 0;
+  text-shadow: transparent, 0, 0, 0;
 }
 /* line 568, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #video_embed h1 a:hover {
@@ -1120,12 +1152,12 @@ body#site #video_embed h1 a:hover {
 }
 /* line 570, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #video_embed h2 {
-  text-shadow: transparent 0 0 0;
+  text-shadow: transparent, 0, 0, 0;
 }
 /* line 572, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #video_embed h2 a {
   color: #6ab9e0;
-  text-shadow: transparent 0 0 0;
+  text-shadow: transparent, 0, 0, 0;
 }
 /* line 575, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #video_embed h2 a:hover {
@@ -1137,16 +1169,16 @@ body#site #video_embed #site_link h1 a img {
 }
 /* line 582, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #video_embed #site_link h1 a:hover {
-  text-shadow: transparent 0 0 0;
+  text-shadow: transparent, 0, 0, 0;
 }
 /* line 584, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #project_warning {
   background-color: #d3e9f4;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  -moz-box-shadow: rgba(0, 0, 0, 0.25) -1px 1px 6px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.25) -1px 1px 6px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.25) -1px 1px 6px 0;
-  box-shadow: rgba(0, 0, 0, 0.25) -1px 1px 6px 0;
+  -moz-box-shadow: -1px 1px 6px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: -1px 1px 6px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: -1px 1px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: -1px 1px 6px rgba(0, 0, 0, 0.25);
 }
 /* line 589, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #profile_header .image {
@@ -1154,10 +1186,10 @@ body#site #profile_header .image {
 }
 /* line 591, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #profile_header .image img {
-  -moz-box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
-  box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
+  -moz-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
 }
 /* line 594, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #profile_header .info h1, body#site #profile_header .info h2 {
@@ -1198,10 +1230,10 @@ body#site #user_feed h1 {
 /* line 622, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #user_feed img.project {
   width: 265px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
-  box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
+  -moz-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
 }
 /* line 625, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #user_feed a {
@@ -1212,10 +1244,10 @@ body#site #user_feed a {
 body#site #user_feed #gravatar_hint {
   background-color: #d3e9f4;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  -moz-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px 0;
-  box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px 0;
+  -moz-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
   -o-border-radius: 8px;
@@ -1243,18 +1275,18 @@ body#site #project_review #review_text .reward {
 body#site #project_review #credits_notice {
   background-color: #d3e9f4;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-shadow: transparent 0 0 0;
-  -moz-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px 0;
-  box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px 0;
+  text-shadow: transparent, 0, 0, 0;
+  -moz-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
 }
 /* line 648, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #project_review img#project_image {
-  -moz-box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
-  box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
+  -moz-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
 }
 /* line 650, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #project_review h1 {
@@ -1264,10 +1296,10 @@ body#site #project_review h1 {
 }
 /* line 655, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #thank_you img#project_image {
-  -moz-box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
-  box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
+  -moz-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
 }
 /* line 657, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #thank_you h1 {
@@ -1297,10 +1329,10 @@ body#site #back_options #backer_form #backer_credits_input {
   -ms-border-radius: 6px;
   -khtml-border-radius: 6px;
   border-radius: 6px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
-  box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
+  -moz-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
 }
 /* line 674, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #back_options #backer_form label {
@@ -1318,10 +1350,10 @@ body#site #back_options #backer_form li.radio ol {
   -ms-border-radius: 0px;
   -khtml-border-radius: 0px;
   border-radius: 0px;
-  -moz-box-shadow: transparent 0 0 0 0;
-  -webkit-box-shadow: transparent 0 0 0 0;
-  -o-box-shadow: transparent 0 0 0 0;
-  box-shadow: transparent 0 0 0 0;
+  -moz-box-shadow: transparent, 0, 0, 0;
+  -webkit-box-shadow: transparent, 0, 0, 0;
+  -o-box-shadow: transparent, 0, 0, 0;
+  box-shadow: transparent, 0, 0, 0;
 }
 /* line 683, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #back_options #backer_form li.radio ol li {
@@ -1333,10 +1365,10 @@ body#site #back_options #backer_form li.radio ol li {
   -ms-border-radius: 6px;
   -khtml-border-radius: 6px;
   border-radius: 6px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
-  box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
+  -moz-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
   margin-bottom: 12px;
 }
 /* line 689, ../../../app/stylesheets/sites/senso_incomum.sass */
@@ -1366,10 +1398,10 @@ body#site #back_options #backer_form li.radio ol li.selected, body#site #back_op
 }
 /* line 699, ../../../app/stylesheets/sites/senso_incomum.sass */
 body#site #back_info img {
-  -moz-box-shadow: transparent 0 0 0 0;
-  -webkit-box-shadow: transparent 0 0 0 0;
-  -o-box-shadow: transparent 0 0 0 0;
-  box-shadow: transparent 0 0 0 0;
+  -moz-box-shadow: transparent, 0, 0, 0;
+  -webkit-box-shadow: transparent, 0, 0, 0;
+  -o-box-shadow: transparent, 0, 0, 0;
+  box-shadow: transparent, 0, 0, 0;
   border: 3px solid #dddddd;
   width: 140px;
 }

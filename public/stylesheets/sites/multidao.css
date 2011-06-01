@@ -1,7 +1,7 @@
 /* line 3, ../../../app/stylesheets/sites/multidao.sass */
 body#site {
   background: #252525;
-  text-shadow: transparent 0px 0px 0px;
+  text-shadow: transparent, 0px, 0px, 0px;
 }
 /* line 6, ../../../app/stylesheets/sites/multidao.sass */
 body#site a {
@@ -14,53 +14,61 @@ body#site a:hover {
 /* line 11, ../../../app/stylesheets/sites/multidao.sass */
 body#site form input[type=submit] {
   color: white;
-  text-shadow: transparent 0 0 0;
+  text-shadow: transparent, 0, 0, 0;
   font-weight: normal;
   background-color: #87bd29;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #87bd29), color-stop(100%, #87bd29));
-  background-image: -moz-linear-gradient(top, #87bd29 0%, #87bd29 100%);
-  background-image: linear-gradient(top, #87bd29 0%, #87bd29 100%);
-  -moz-box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 6px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 6px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 6px 0;
-  box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 6px 0;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #87bd29), color-stop(100%, #87bd29));
+  background-image: -webkit-linear-gradient(top, #87bd29, #87bd29);
+  background-image: -moz-linear-gradient(top, #87bd29, #87bd29);
+  background-image: -o-linear-gradient(top, #87bd29, #87bd29);
+  background-image: linear-gradient(top, #87bd29, #87bd29);
+  -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
 }
 /* line 18, ../../../app/stylesheets/sites/multidao.sass */
 body#site form input[type=submit]:hover {
   background-color: #8cc22e;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #8cc22e), color-stop(100%, #8cc22e));
-  background-image: -moz-linear-gradient(top, #8cc22e 0%, #8cc22e 100%);
-  background-image: linear-gradient(top, #8cc22e 0%, #8cc22e 100%);
-  -moz-box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 6px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 6px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 6px 0;
-  box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 6px 0;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8cc22e), color-stop(100%, #8cc22e));
+  background-image: -webkit-linear-gradient(top, #8cc22e, #8cc22e);
+  background-image: -moz-linear-gradient(top, #8cc22e, #8cc22e);
+  background-image: -o-linear-gradient(top, #8cc22e, #8cc22e);
+  background-image: linear-gradient(top, #8cc22e, #8cc22e);
+  -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
 }
 /* line 22, ../../../app/stylesheets/sites/multidao.sass */
 body#site form input[type=submit]:active {
-  text-shadow: transparent 0 0 0;
+  text-shadow: transparent, 0, 0, 0;
   background-color: #87bd29;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #87bd29), color-stop(100%, #87bd29));
-  background-image: -moz-linear-gradient(top, #87bd29 0%, #87bd29 100%);
-  background-image: linear-gradient(top, #87bd29 0%, #87bd29 100%);
-  -moz-box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 6px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 6px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 6px 0;
-  box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 6px 0;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #87bd29), color-stop(100%, #87bd29));
+  background-image: -webkit-linear-gradient(top, #87bd29, #87bd29);
+  background-image: -moz-linear-gradient(top, #87bd29, #87bd29);
+  background-image: -o-linear-gradient(top, #87bd29, #87bd29);
+  background-image: linear-gradient(top, #87bd29, #87bd29);
+  -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
 }
 /* line 27, ../../../app/stylesheets/sites/multidao.sass */
 body#site form input[type=submit]:disabled {
   color: #717171;
-  text-shadow: transparent 0 0 0;
+  text-shadow: transparent, 0, 0, 0;
   padding: 10px 15px;
   background-color: #bcbcbc;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #bcbcbc), color-stop(100%, #bcbcbc));
-  background-image: -moz-linear-gradient(top, #bcbcbc 0%, #bcbcbc 100%);
-  background-image: linear-gradient(top, #bcbcbc 0%, #bcbcbc 100%);
-  -moz-box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 6px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 6px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 6px 0;
-  box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 6px 0;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #bcbcbc), color-stop(100%, #bcbcbc));
+  background-image: -webkit-linear-gradient(top, #bcbcbc, #bcbcbc);
+  background-image: -moz-linear-gradient(top, #bcbcbc, #bcbcbc);
+  background-image: -o-linear-gradient(top, #bcbcbc, #bcbcbc);
+  background-image: linear-gradient(top, #bcbcbc, #bcbcbc);
+  -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
 }
 /* line 34, ../../../app/stylesheets/sites/multidao.sass */
 body#site form input.ok, body#site form textarea.ok {
@@ -88,11 +96,11 @@ body#site form select.loading {
 }
 /* line 46, ../../../app/stylesheets/sites/multidao.sass */
 body#site .important {
-  -moz-box-shadow: rgba(0, 0, 0, 0.25) -1px 1px 6px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.25) -1px 1px 6px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.25) -1px 1px 6px 0;
-  box-shadow: rgba(0, 0, 0, 0.25) -1px 1px 6px 0;
-  text-shadow: transparent 0 0 0;
+  -moz-box-shadow: -1px 1px 6px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: -1px 1px 6px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: -1px 1px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: -1px 1px 6px rgba(0, 0, 0, 0.25);
+  text-shadow: transparent, 0, 0, 0;
   background-color: #ffaaaa;
 }
 /* line 50, ../../../app/stylesheets/sites/multidao.sass */
@@ -103,9 +111,11 @@ body#site .overlay {
 /* line 53, ../../../app/stylesheets/sites/multidao.sass */
 body#site #login, body#site #project_description #project_video #project_embed {
   background-color: #4a99c0;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #6ab9e0), color-stop(50%, #5aa9d0), color-stop(100%, #4a99c0));
-  background-image: -moz-linear-gradient(top, #6ab9e0 0%, #5aa9d0 50%, #4a99c0 100%);
-  background-image: linear-gradient(top, #6ab9e0 0%, #5aa9d0 50%, #4a99c0 100%);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6ab9e0), color-stop(50%, #5aa9d0), color-stop(100%, #4a99c0));
+  background-image: -webkit-linear-gradient(top, #6ab9e0, #5aa9d0, #4a99c0);
+  background-image: -moz-linear-gradient(top, #6ab9e0, #5aa9d0, #4a99c0);
+  background-image: -o-linear-gradient(top, #6ab9e0, #5aa9d0, #4a99c0);
+  background-image: linear-gradient(top, #6ab9e0, #5aa9d0, #4a99c0);
   border: 5px solid white;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -113,11 +123,11 @@ body#site #login, body#site #project_description #project_video #project_embed {
   -ms-border-radius: 4px;
   -khtml-border-radius: 4px;
   border-radius: 4px;
-  -moz-box-shadow: transparent 0 0 0 0;
-  -webkit-box-shadow: transparent 0 0 0 0;
-  -o-box-shadow: transparent 0 0 0 0;
-  box-shadow: transparent 0 0 0 0;
-  text-shadow: transparent 0 0 0;
+  -moz-box-shadow: transparent, 0, 0, 0;
+  -webkit-box-shadow: transparent, 0, 0, 0;
+  -o-box-shadow: transparent, 0, 0, 0;
+  box-shadow: transparent, 0, 0, 0;
+  text-shadow: transparent, 0, 0, 0;
 }
 /* line 60, ../../../app/stylesheets/sites/multidao.sass */
 body#site #login h1, body#site #project_description #project_video #project_embed h1 {
@@ -127,13 +137,15 @@ body#site #login h1, body#site #project_description #project_video #project_embe
 }
 /* line 64, ../../../app/stylesheets/sites/multidao.sass */
 body#site #login a.close, body#site #project_description #project_video #project_embed a.close {
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #6ab9e0), color-stop(50%, #5aa9d0), color-stop(100%, #4a99c0));
-  background-image: -moz-linear-gradient(top, #6ab9e0 0%, #5aa9d0 50%, #4a99c0 100%);
-  background-image: linear-gradient(top, #6ab9e0 0%, #5aa9d0 50%, #4a99c0 100%);
-  -moz-box-shadow: transparent 0 0 0 0;
-  -webkit-box-shadow: transparent 0 0 0 0;
-  -o-box-shadow: transparent 0 0 0 0;
-  box-shadow: transparent 0 0 0 0;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6ab9e0), color-stop(50%, #5aa9d0), color-stop(100%, #4a99c0));
+  background-image: -webkit-linear-gradient(top, #6ab9e0, #5aa9d0, #4a99c0);
+  background-image: -moz-linear-gradient(top, #6ab9e0, #5aa9d0, #4a99c0);
+  background-image: -o-linear-gradient(top, #6ab9e0, #5aa9d0, #4a99c0);
+  background-image: linear-gradient(top, #6ab9e0, #5aa9d0, #4a99c0);
+  -moz-box-shadow: transparent, 0, 0, 0;
+  -webkit-box-shadow: transparent, 0, 0, 0;
+  -o-box-shadow: transparent, 0, 0, 0;
+  box-shadow: transparent, 0, 0, 0;
 }
 /* line 68, ../../../app/stylesheets/sites/multidao.sass */
 body#site #login #project_box_embed textarea, body#site #project_description #project_video #project_embed #project_box_embed textarea {
@@ -167,10 +179,10 @@ body#site #user a {
 }
 /* line 87, ../../../app/stylesheets/sites/multidao.sass */
 body#site #user a img#display_image {
-  -moz-box-shadow: transparent 0 0 0 0;
-  -webkit-box-shadow: transparent 0 0 0 0;
-  -o-box-shadow: transparent 0 0 0 0;
-  box-shadow: transparent 0 0 0 0;
+  -moz-box-shadow: transparent, 0, 0, 0;
+  -webkit-box-shadow: transparent, 0, 0, 0;
+  -o-box-shadow: transparent, 0, 0, 0;
+  box-shadow: transparent, 0, 0, 0;
   border: 1px solid #aaaaaa;
 }
 /* line 90, ../../../app/stylesheets/sites/multidao.sass */
@@ -182,10 +194,10 @@ body#site #user .hover {
 }
 /* line 95, ../../../app/stylesheets/sites/multidao.sass */
 body#site #user .hover img#display_image {
-  -moz-box-shadow: transparent 0 0 0 0;
-  -webkit-box-shadow: transparent 0 0 0 0;
-  -o-box-shadow: transparent 0 0 0 0;
-  box-shadow: transparent 0 0 0 0;
+  -moz-box-shadow: transparent, 0, 0, 0;
+  -webkit-box-shadow: transparent, 0, 0, 0;
+  -o-box-shadow: transparent, 0, 0, 0;
+  box-shadow: transparent, 0, 0, 0;
 }
 /* line 97, ../../../app/stylesheets/sites/multidao.sass */
 body#site #main {
@@ -209,19 +221,19 @@ body#site #header h1 {
 body#site #header h1 a {
   color: white;
   font-size: 36px;
-  text-shadow: transparent 0px 0px 0px;
+  text-shadow: transparent, 0px, 0px, 0px;
 }
 /* line 111, ../../../app/stylesheets/sites/multidao.sass */
 body#site #header h1 a:hover {
-  text-shadow: transparent 0px 0px 0px;
+  text-shadow: transparent, 0px, 0px, 0px;
 }
 /* line 113, ../../../app/stylesheets/sites/multidao.sass */
 body#site #content_header_wrapper {
   background: #e5e5e5;
-  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px -2px 5px 0px inset;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px -2px 5px 0px inset;
-  -o-box-shadow: rgba(0, 0, 0, 0.2) 0px -2px 5px 0px inset;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px -2px 5px 0px inset;
+  -moz-box-shadow: inset 0px -2px 5px 0px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: inset 0px -2px 5px 0px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: inset 0px -2px 5px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0px -2px 5px 0px rgba(0, 0, 0, 0.2);
 }
 /* line 116, ../../../app/stylesheets/sites/multidao.sass */
 body#site #content_wrapper {
@@ -244,13 +256,13 @@ body#site #content_wrapper #content_header {
   -ms-border-radius: 0px;
   -khtml-border-radius: 0px;
   border-radius: 0px;
-  -moz-box-shadow: transparent 0 0 0 0;
-  -webkit-box-shadow: transparent 0 0 0 0;
-  -o-box-shadow: transparent 0 0 0 0;
-  box-shadow: transparent 0 0 0 0;
+  -moz-box-shadow: transparent, 0, 0, 0;
+  -webkit-box-shadow: transparent, 0, 0, 0;
+  -o-box-shadow: transparent, 0, 0, 0;
+  box-shadow: transparent, 0, 0, 0;
   background-color: transparent;
   color: #3c3c3c;
-  text-shadow: transparent 0px 0px 0px;
+  text-shadow: transparent, 0px, 0px, 0px;
 }
 /* line 128, ../../../app/stylesheets/sites/multidao.sass */
 body#site #content_wrapper #content_header h1 {
@@ -260,7 +272,7 @@ body#site #content_wrapper #content_header h1 {
   line-height: 38px;
   text-align: left;
   font-weight: bold;
-  text-shadow: transparent 0px 0px 0px;
+  text-shadow: transparent, 0px, 0px, 0px;
   letter-spacing: -2px;
   padding-bottom: 16px;
 }
@@ -280,12 +292,12 @@ body#site #content_wrapper #content_header h1 a {
 /* line 142, ../../../app/stylesheets/sites/multidao.sass */
 body#site #content_wrapper #content_header h1 a:hover {
   color: #7ecdf4;
-  text-shadow: transparent 0px 0px 0px;
+  text-shadow: transparent, 0px, 0px, 0px;
 }
 /* line 145, ../../../app/stylesheets/sites/multidao.sass */
 body#site #content_wrapper #content_header h2 {
   text-transform: lowercase;
-  text-shadow: transparent 0px 0px 0px;
+  text-shadow: transparent, 0px, 0px, 0px;
   text-align: left;
   padding: 0;
   color: #4c4c4c;
@@ -306,7 +318,7 @@ body#site #content_wrapper #content_header h2 a {
 /* line 155, ../../../app/stylesheets/sites/multidao.sass */
 body#site #content_wrapper #content_header h2 a:hover {
   color: #7ecdf4;
-  text-shadow: transparent 0px 0px 0px;
+  text-shadow: transparent, 0px, 0px, 0px;
 }
 /* line 158, ../../../app/stylesheets/sites/multidao.sass */
 body#site #content_wrapper #content_header #badge {
@@ -364,11 +376,10 @@ body#site #footer #footer_menu ul {
   margin: 0;
   padding: 0;
   border: 0;
-  outline: 0;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 51, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+/* line 60, ../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 body#site #footer #footer_menu ul li {
   list-style-image: none;
   list-style-type: none;
@@ -379,13 +390,17 @@ body#site #footer #footer_menu ul li {
   padding-left: 56px;
   padding-right: 56px;
 }
-/* line 43, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+/* line 48, ../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 body#site #footer #footer_menu ul li:first-child, body#site #footer #footer_menu ul li.first {
-  padding-left: 0px;
+  padding-left: 0;
 }
-/* line 44, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
-body#site #footer #footer_menu ul li:last-child, body#site #footer #footer_menu ul li.last {
-  padding-right: 0px;
+/* line 49, ../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+body#site #footer #footer_menu ul li:last-child {
+  padding-right: 0;
+}
+/* line 50, ../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+body#site #footer #footer_menu ul li.last {
+  padding-right: 0;
 }
 /* line 193, ../../../app/stylesheets/sites/multidao.sass */
 body#site #footer #footer_menu ul li a {
@@ -406,11 +421,10 @@ body#site #footer #social_menu ul {
   margin: 0;
   padding: 0;
   border: 0;
-  outline: 0;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 51, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+/* line 60, ../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 body#site #footer #social_menu ul li {
   list-style-image: none;
   list-style-type: none;
@@ -421,13 +435,17 @@ body#site #footer #social_menu ul li {
   padding-left: 26px;
   padding-right: 26px;
 }
-/* line 43, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+/* line 48, ../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 body#site #footer #social_menu ul li:first-child, body#site #footer #social_menu ul li.first {
-  padding-left: 0px;
+  padding-left: 0;
 }
-/* line 44, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
-body#site #footer #social_menu ul li:last-child, body#site #footer #social_menu ul li.last {
-  padding-right: 0px;
+/* line 49, ../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+body#site #footer #social_menu ul li:last-child {
+  padding-right: 0;
+}
+/* line 50, ../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+body#site #footer #social_menu ul li.last {
+  padding-right: 0;
 }
 /* line 204, ../../../app/stylesheets/sites/multidao.sass */
 body#site #footer #social_menu ul li a {
@@ -495,7 +513,7 @@ body#site .project_box .project_header .project_image img {
 }
 /* line 239, ../../../app/stylesheets/sites/multidao.sass */
 body#site .project_box .project_header a:hover {
-  text-shadow: transparent 0 0 0;
+  text-shadow: transparent, 0, 0, 0;
 }
 /* line 241, ../../../app/stylesheets/sites/multidao.sass */
 body#site .project_box .project_category {
@@ -545,11 +563,10 @@ body#site .project_box .project_progress .progress_info ul {
   margin: 0;
   padding: 0;
   border: 0;
-  outline: 0;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 51, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+/* line 60, ../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 body#site .project_box .project_progress .progress_info ul li {
   list-style-image: none;
   list-style-type: none;
@@ -560,13 +577,17 @@ body#site .project_box .project_progress .progress_info ul li {
   padding-left: 18px;
   padding-right: 18px;
 }
-/* line 43, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+/* line 48, ../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 body#site .project_box .project_progress .progress_info ul li:first-child, body#site .project_box .project_progress .progress_info ul li.first {
-  padding-left: 0px;
+  padding-left: 0;
 }
-/* line 44, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
-body#site .project_box .project_progress .progress_info ul li:last-child, body#site .project_box .project_progress .progress_info ul li.last {
-  padding-right: 0px;
+/* line 49, ../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+body#site .project_box .project_progress .progress_info ul li:last-child {
+  padding-right: 0;
+}
+/* line 50, ../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+body#site .project_box .project_progress .progress_info ul li.last {
+  padding-right: 0;
 }
 /* line 272, ../../../app/stylesheets/sites/multidao.sass */
 body#site .progress_bar {
@@ -619,11 +640,10 @@ body#site #embed .project_box .project_progress .progress_info ul {
   margin: 0;
   padding: 0;
   border: 0;
-  outline: 0;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 51, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+/* line 60, ../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 body#site #embed .project_box .project_progress .progress_info ul li {
   list-style-image: none;
   list-style-type: none;
@@ -634,13 +654,17 @@ body#site #embed .project_box .project_progress .progress_info ul li {
   padding-left: 12px;
   padding-right: 12px;
 }
-/* line 43, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+/* line 48, ../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 body#site #embed .project_box .project_progress .progress_info ul li:first-child, body#site #embed .project_box .project_progress .progress_info ul li.first {
-  padding-left: 0px;
+  padding-left: 0;
 }
-/* line 44, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
-body#site #embed .project_box .project_progress .progress_info ul li:last-child, body#site #embed .project_box .project_progress .progress_info ul li.last {
-  padding-right: 0px;
+/* line 49, ../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+body#site #embed .project_box .project_progress .progress_info ul li:last-child {
+  padding-right: 0;
+}
+/* line 50, ../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+body#site #embed .project_box .project_progress .progress_info ul li.last {
+  padding-right: 0;
 }
 /* line 297, ../../../app/stylesheets/sites/multidao.sass */
 body#site .navigation .prev, body#site .navigation .next {
@@ -657,40 +681,46 @@ body#site .navigation .prev, body#site .navigation .next {
   -khtml-border-radius: 0px;
   border-radius: 0px;
   background-color: #6ab9e0;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #6ab9e0), color-stop(100%, #6ab9e0));
-  background-image: -moz-linear-gradient(top, #6ab9e0 0%, #6ab9e0 100%);
-  background-image: linear-gradient(top, #6ab9e0 0%, #6ab9e0 100%);
-  -moz-box-shadow: transparent 0 0 0 0;
-  -webkit-box-shadow: transparent 0 0 0 0;
-  -o-box-shadow: transparent 0 0 0 0;
-  box-shadow: transparent 0 0 0 0;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6ab9e0), color-stop(100%, #6ab9e0));
+  background-image: -webkit-linear-gradient(top, #6ab9e0, #6ab9e0);
+  background-image: -moz-linear-gradient(top, #6ab9e0, #6ab9e0);
+  background-image: -o-linear-gradient(top, #6ab9e0, #6ab9e0);
+  background-image: linear-gradient(top, #6ab9e0, #6ab9e0);
+  -moz-box-shadow: transparent, 0, 0, 0;
+  -webkit-box-shadow: transparent, 0, 0, 0;
+  -o-box-shadow: transparent, 0, 0, 0;
+  box-shadow: transparent, 0, 0, 0;
   font-size: 20px;
   line-height: 20px;
 }
 /* line 310, ../../../app/stylesheets/sites/multidao.sass */
 body#site .navigation .prev:hover, body#site .navigation .next:hover {
-  -moz-transform: scale(1);
-  -webkit-transform: scale(1);
-  -o-transform: scale(1);
-  transform: scale(1);
+  -moz-transform: scale(1, 1);
+  -webkit-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
   width: 24px;
 }
 /* line 313, ../../../app/stylesheets/sites/multidao.sass */
 body#site .navigation .prev:disabled, body#site .navigation .next:disabled {
   color: #a1a1a1;
   border: none;
-  text-shadow: transparent 0 0 0;
+  text-shadow: transparent, 0, 0, 0;
   background-color: #c8c8c8;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #c8c8c8), color-stop(100%, #c8c8c8));
-  background-image: -moz-linear-gradient(top, #c8c8c8 0%, #c8c8c8 100%);
-  background-image: linear-gradient(top, #c8c8c8 0%, #c8c8c8 100%);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c8c8c8), color-stop(100%, #c8c8c8));
+  background-image: -webkit-linear-gradient(top, #c8c8c8, #c8c8c8);
+  background-image: -moz-linear-gradient(top, #c8c8c8, #c8c8c8);
+  background-image: -o-linear-gradient(top, #c8c8c8, #c8c8c8);
+  background-image: linear-gradient(top, #c8c8c8, #c8c8c8);
 }
 /* line 319, ../../../app/stylesheets/sites/multidao.sass */
 body#site .navigation .prev:disabled:hover, body#site .navigation .next:disabled:hover {
-  -moz-transform: scale(1);
-  -webkit-transform: scale(1);
-  -o-transform: scale(1);
-  transform: scale(1);
+  -moz-transform: scale(1, 1);
+  -webkit-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
   width: 20px;
 }
 /* line 322, ../../../app/stylesheets/sites/multidao.sass */
@@ -741,7 +771,7 @@ body#site #explore_projects #explore_menu ul li a {
 /* line 354, ../../../app/stylesheets/sites/multidao.sass */
 body#site #explore_projects #explore_menu ul li a.selected, body#site #explore_projects #explore_menu ul li a:hover {
   background-color: #6ab9e0;
-  text-shadow: transparent 0 0 0;
+  text-shadow: transparent, 0, 0, 0;
 }
 /* line 357, ../../../app/stylesheets/sites/multidao.sass */
 body#site #project_header {
@@ -756,11 +786,10 @@ body#site #project_description #project_menu ul {
   margin: 0;
   padding: 0;
   border: 0;
-  outline: 0;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 51, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+/* line 60, ../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 body#site #project_description #project_menu ul li {
   list-style-image: none;
   list-style-type: none;
@@ -771,13 +800,17 @@ body#site #project_description #project_menu ul li {
   padding-left: 4px;
   padding-right: 4px;
 }
-/* line 43, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+/* line 48, ../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 body#site #project_description #project_menu ul li:first-child, body#site #project_description #project_menu ul li.first {
-  padding-left: 0px;
+  padding-left: 0;
 }
-/* line 44, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
-body#site #project_description #project_menu ul li:last-child, body#site #project_description #project_menu ul li.last {
-  padding-right: 0px;
+/* line 49, ../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+body#site #project_description #project_menu ul li:last-child {
+  padding-right: 0;
+}
+/* line 50, ../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+body#site #project_description #project_menu ul li.last {
+  padding-right: 0;
 }
 /* line 366, ../../../app/stylesheets/sites/multidao.sass */
 body#site #project_description #project_menu ul li a {
@@ -797,12 +830,12 @@ body#site #project_description #project_menu ul li a .count {
 /* line 377, ../../../app/stylesheets/sites/multidao.sass */
 body#site #project_description #project_menu ul li a:hover {
   background-color: #6abadf;
-  text-shadow: transparent 0 0 0;
+  text-shadow: transparent, 0, 0, 0;
 }
 /* line 381, ../../../app/stylesheets/sites/multidao.sass */
 body#site #project_description #project_menu ul li.selected a {
   background-color: #6abadf;
-  text-shadow: transparent 0 0 0;
+  text-shadow: transparent, 0, 0, 0;
 }
 /* line 384, ../../../app/stylesheets/sites/multidao.sass */
 body#site #project_description #project_menu ul li.selected img {
@@ -813,10 +846,10 @@ body#site #project_description #project_menu ul li.selected img {
 }
 /* line 390, ../../../app/stylesheets/sites/multidao.sass */
 body#site #project_description #project_video iframe {
-  -moz-box-shadow: transparent 0 0 0 0;
-  -webkit-box-shadow: transparent 0 0 0 0;
-  -o-box-shadow: transparent 0 0 0 0;
-  box-shadow: transparent 0 0 0 0;
+  -moz-box-shadow: transparent, 0, 0, 0;
+  -webkit-box-shadow: transparent, 0, 0, 0;
+  -o-box-shadow: transparent, 0, 0, 0;
+  box-shadow: transparent, 0, 0, 0;
 }
 /* line 392, ../../../app/stylesheets/sites/multidao.sass */
 body#site #project_description #project_video #project_share {
@@ -837,10 +870,10 @@ body#site #project_description #project_video #project_share {
   -khtml-border-bottom-right-radius: 0;
   border-bottom-right-radius: 0;
   border: none;
-  -moz-box-shadow: transparent 0 0 0 0;
-  -webkit-box-shadow: transparent 0 0 0 0;
-  -o-box-shadow: transparent 0 0 0 0;
-  box-shadow: transparent 0 0 0 0;
+  -moz-box-shadow: transparent, 0, 0, 0;
+  -webkit-box-shadow: transparent, 0, 0, 0;
+  -o-box-shadow: transparent, 0, 0, 0;
+  box-shadow: transparent, 0, 0, 0;
   text-align: left;
   font-size: 12px;
   font-weight: bold;
@@ -852,12 +885,11 @@ body#site #project_description #project_video #project_share ul {
   margin: 0;
   padding: 0;
   border: 0;
-  outline: 0;
   overflow: hidden;
   *zoom: 1;
   width: 100%;
 }
-/* line 51, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+/* line 60, ../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 body#site #project_description #project_video #project_share ul li {
   list-style-image: none;
   list-style-type: none;
@@ -868,13 +900,17 @@ body#site #project_description #project_video #project_share ul li {
   padding-left: 12px;
   padding-right: 12px;
 }
-/* line 43, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+/* line 48, ../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 body#site #project_description #project_video #project_share ul li:first-child, body#site #project_description #project_video #project_share ul li.first {
-  padding-left: 0px;
+  padding-left: 0;
 }
-/* line 44, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
-body#site #project_description #project_video #project_share ul li:last-child, body#site #project_description #project_video #project_share ul li.last {
-  padding-right: 0px;
+/* line 49, ../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+body#site #project_description #project_video #project_share ul li:last-child {
+  padding-right: 0;
+}
+/* line 50, ../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+body#site #project_description #project_video #project_share ul li.last {
+  padding-right: 0;
 }
 /* line 409, ../../../app/stylesheets/sites/multidao.sass */
 body#site #project_description #project_video #project_share ul li {
@@ -921,7 +957,7 @@ body#site #project_description #project_video #project_share a {
 /* line 431, ../../../app/stylesheets/sites/multidao.sass */
 body#site #project_description #project_video #project_share a:hover {
   color: #5f6975;
-  text-shadow: transparent 0 0 0;
+  text-shadow: transparent, 0, 0, 0;
 }
 /* line 434, ../../../app/stylesheets/sites/multidao.sass */
 body#site #project_description #project_video #project_share img, body#site #project_description #project_video #project_share a img {
@@ -961,10 +997,10 @@ body#site #project_back_info #back_project {
   -ms-border-radius: 4px;
   -khtml-border-radius: 4px;
   border-radius: 4px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.2) -2px 2px 6px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.2) -2px 2px 6px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.2) -2px 2px 6px 0;
-  box-shadow: rgba(0, 0, 0, 0.2) -2px 2px 6px 0;
+  -moz-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.2);
 }
 /* line 457, ../../../app/stylesheets/sites/multidao.sass */
 body#site #project_back_info #back_project .info {
@@ -989,7 +1025,7 @@ body#site #project_back_info #back_project .project_warning {
   margin: 0 8px;
   font-size: 11px;
   line-height: 14px;
-  text-shadow: transparent 0 0 0;
+  text-shadow: transparent, 0, 0, 0;
 }
 /* line 474, ../../../app/stylesheets/sites/multidao.sass */
 body#site #project_back_info #back_project .successful, body#site #project_back_info #back_project .not_successful, body#site #project_back_info #back_project .waiting_confirmation {
@@ -1005,11 +1041,13 @@ body#site #project_back_info #back_project form {
 }
 /* line 480, ../../../app/stylesheets/sites/multidao.sass */
 body#site #project_back_info #back_project form input[type=submit] {
-  text-shadow: transparent 0 0 0;
+  text-shadow: transparent, 0, 0, 0;
   background-color: #8aca52;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #8aca52), color-stop(50%, #8aca52), color-stop(51%, #74ad44), color-stop(100%, #74ad44));
-  background-image: -moz-linear-gradient(top, #8aca52 0%, #8aca52 50%, #74ad44 51%, #74ad44 100%);
-  background-image: linear-gradient(top, #8aca52 0%, #8aca52 50%, #74ad44 51%, #74ad44 100%);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8aca52), color-stop(50%, #8aca52), color-stop(51%, #74ad44), color-stop(100%, #74ad44));
+  background-image: -webkit-linear-gradient(top, #8aca52, #8aca52 50%, #74ad44 51%, #74ad44);
+  background-image: -moz-linear-gradient(top, #8aca52, #8aca52 50%, #74ad44 51%, #74ad44);
+  background-image: -o-linear-gradient(top, #8aca52, #8aca52 50%, #74ad44 51%, #74ad44);
+  background-image: linear-gradient(top, #8aca52, #8aca52 50%, #74ad44 51%, #74ad44);
   text-transform: lowercase;
   font-weight: normal;
   font-size: 20px;
@@ -1018,24 +1056,28 @@ body#site #project_back_info #back_project form input[type=submit] {
 /* line 488, ../../../app/stylesheets/sites/multidao.sass */
 body#site #project_back_info #back_project form input[type=submit]:hover {
   background-color: #8aca52;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #8fcf57), color-stop(50%, #8fcf57), color-stop(51%, #79b249), color-stop(100%, #79b249));
-  background-image: -moz-linear-gradient(top, #8fcf57 0%, #8fcf57 50%, #79b249 51%, #79b249 100%);
-  background-image: linear-gradient(top, #8fcf57 0%, #8fcf57 50%, #79b249 51%, #79b249 100%);
-  text-shadow: transparent 0 0 0;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8fcf57), color-stop(50%, #8fcf57), color-stop(51%, #79b249), color-stop(100%, #79b249));
+  background-image: -webkit-linear-gradient(top, #8fcf57, #8fcf57 50%, #79b249 51%, #79b249);
+  background-image: -moz-linear-gradient(top, #8fcf57, #8fcf57 50%, #79b249 51%, #79b249);
+  background-image: -o-linear-gradient(top, #8fcf57, #8fcf57 50%, #79b249 51%, #79b249);
+  background-image: linear-gradient(top, #8fcf57, #8fcf57 50%, #79b249 51%, #79b249);
+  text-shadow: transparent, 0, 0, 0;
 }
 /* line 492, ../../../app/stylesheets/sites/multidao.sass */
 body#site #project_back_info #back_project form input[type=submit]:active {
   padding: 18px 23px 16px 25px;
-  text-shadow: transparent 0 0 0;
+  text-shadow: transparent, 0, 0, 0;
 }
 /* line 495, ../../../app/stylesheets/sites/multidao.sass */
 body#site #project_back_info #back_project form input[type=submit]:disabled {
   color: #888888;
-  text-shadow: transparent 0 0 0;
+  text-shadow: transparent, 0, 0, 0;
   background-color: #aaaaaa;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #aaaaaa), color-stop(50%, #aaaaaa), color-stop(51%, #bbbbbb), color-stop(100%, #bbbbbb));
-  background-image: -moz-linear-gradient(top, #aaaaaa 0%, #aaaaaa 50%, #bbbbbb 51%, #bbbbbb 100%);
-  background-image: linear-gradient(top, #aaaaaa 0%, #aaaaaa 50%, #bbbbbb 51%, #bbbbbb 100%);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #aaaaaa), color-stop(50%, #aaaaaa), color-stop(51%, #bbbbbb), color-stop(100%, #bbbbbb));
+  background-image: -webkit-linear-gradient(top, #aaaaaa, #aaaaaa 50%, #bbbbbb 51%, #bbbbbb);
+  background-image: -moz-linear-gradient(top, #aaaaaa, #aaaaaa 50%, #bbbbbb 51%, #bbbbbb);
+  background-image: -o-linear-gradient(top, #aaaaaa, #aaaaaa 50%, #bbbbbb 51%, #bbbbbb);
+  background-image: linear-gradient(top, #aaaaaa, #aaaaaa 50%, #bbbbbb 51%, #bbbbbb);
   text-transform: lowercase;
   font-weight: normal;
   font-size: 20px;
@@ -1043,10 +1085,10 @@ body#site #project_back_info #back_project form input[type=submit]:disabled {
 }
 /* line 504, ../../../app/stylesheets/sites/multidao.sass */
 body#site #project_back_info #rewards {
-  -moz-box-shadow: rgba(0, 0, 0, 0.2) -2px 2px 6px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.2) -2px 2px 6px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.2) -2px 2px 6px 0;
-  box-shadow: rgba(0, 0, 0, 0.2) -2px 2px 6px 0;
+  -moz-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.2);
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
   -o-border-radius: 8px;
@@ -1063,7 +1105,7 @@ body#site #project_back_info #rewards h1 {
   text-align: left;
   padding-left: 24px;
   text-transform: lowercase;
-  text-shadow: transparent 0 0 0;
+  text-shadow: transparent, 0, 0, 0;
   background-color: #6abae0 !important;
   -moz-border-radius-topleft: 8px;
   -webkit-border-top-left-radius: 8px;
@@ -1097,7 +1139,7 @@ body#site #project_back_info #rewards ul h1 {
   text-transform: none;
   font-weight: bold;
   color: #3c3c3c !important;
-  text-shadow: transparent 0 0 0;
+  text-shadow: transparent, 0, 0, 0;
   padding: 10px 0 !important;
 }
 /* line 533, ../../../app/stylesheets/sites/multidao.sass */
@@ -1126,11 +1168,11 @@ body#site #project_back_info #rewards .reward_backers img {
 body#site #how_it_works {
   background-color: #d3e9f4;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  -moz-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px 0;
-  box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px 0;
-  text-shadow: transparent 0 0 0;
+  -moz-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  text-shadow: transparent, 0, 0, 0;
 }
 /* line 552, ../../../app/stylesheets/sites/multidao.sass */
 body#site #how_it_works strong {
@@ -1156,10 +1198,10 @@ body#site #guidelines_form label {
 }
 /* line 566, ../../../app/stylesheets/sites/multidao.sass */
 body#site #video_embed iframe {
-  -moz-box-shadow: transparent 0 0 0 0;
-  -webkit-box-shadow: transparent 0 0 0 0;
-  -o-box-shadow: transparent 0 0 0 0;
-  box-shadow: transparent 0 0 0 0;
+  -moz-box-shadow: transparent, 0, 0, 0;
+  -webkit-box-shadow: transparent, 0, 0, 0;
+  -o-box-shadow: transparent, 0, 0, 0;
+  box-shadow: transparent, 0, 0, 0;
 }
 /* line 568, ../../../app/stylesheets/sites/multidao.sass */
 body#site #video_embed h1 {
@@ -1170,7 +1212,7 @@ body#site #video_embed h1 {
 /* line 572, ../../../app/stylesheets/sites/multidao.sass */
 body#site #video_embed h1 a {
   color: #6ab9e0;
-  text-shadow: transparent 0 0 0;
+  text-shadow: transparent, 0, 0, 0;
 }
 /* line 575, ../../../app/stylesheets/sites/multidao.sass */
 body#site #video_embed h1 a:hover {
@@ -1178,12 +1220,12 @@ body#site #video_embed h1 a:hover {
 }
 /* line 577, ../../../app/stylesheets/sites/multidao.sass */
 body#site #video_embed h2 {
-  text-shadow: transparent 0 0 0;
+  text-shadow: transparent, 0, 0, 0;
 }
 /* line 579, ../../../app/stylesheets/sites/multidao.sass */
 body#site #video_embed h2 a {
   color: #6ab9e0;
-  text-shadow: transparent 0 0 0;
+  text-shadow: transparent, 0, 0, 0;
 }
 /* line 582, ../../../app/stylesheets/sites/multidao.sass */
 body#site #video_embed h2 a:hover {
@@ -1195,16 +1237,16 @@ body#site #video_embed #site_link h1 a img {
 }
 /* line 589, ../../../app/stylesheets/sites/multidao.sass */
 body#site #video_embed #site_link h1 a:hover {
-  text-shadow: transparent 0 0 0;
+  text-shadow: transparent, 0, 0, 0;
 }
 /* line 591, ../../../app/stylesheets/sites/multidao.sass */
 body#site #project_warning {
   background-color: #d3e9f4;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  -moz-box-shadow: rgba(0, 0, 0, 0.25) -1px 1px 6px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.25) -1px 1px 6px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.25) -1px 1px 6px 0;
-  box-shadow: rgba(0, 0, 0, 0.25) -1px 1px 6px 0;
+  -moz-box-shadow: -1px 1px 6px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: -1px 1px 6px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: -1px 1px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: -1px 1px 6px rgba(0, 0, 0, 0.25);
 }
 /* line 596, ../../../app/stylesheets/sites/multidao.sass */
 body#site #profile_header .image {
@@ -1212,10 +1254,10 @@ body#site #profile_header .image {
 }
 /* line 598, ../../../app/stylesheets/sites/multidao.sass */
 body#site #profile_header .image img {
-  -moz-box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
-  box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
+  -moz-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
 }
 /* line 601, ../../../app/stylesheets/sites/multidao.sass */
 body#site #profile_header .info h1, body#site #profile_header .info h2 {
@@ -1256,10 +1298,10 @@ body#site #user_feed h1 {
 /* line 629, ../../../app/stylesheets/sites/multidao.sass */
 body#site #user_feed img.project {
   width: 265px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
-  box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
+  -moz-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
 }
 /* line 632, ../../../app/stylesheets/sites/multidao.sass */
 body#site #user_feed a {
@@ -1270,10 +1312,10 @@ body#site #user_feed a {
 body#site #user_feed #gravatar_hint {
   background-color: #d3e9f4;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  -moz-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px 0;
-  box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px 0;
+  -moz-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
   -o-border-radius: 8px;
@@ -1301,18 +1343,18 @@ body#site #project_review #review_text .reward {
 body#site #project_review #credits_notice {
   background-color: #d3e9f4;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-shadow: transparent 0 0 0;
-  -moz-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px 0;
-  box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px 0;
+  text-shadow: transparent, 0, 0, 0;
+  -moz-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
 }
 /* line 655, ../../../app/stylesheets/sites/multidao.sass */
 body#site #project_review img#project_image {
-  -moz-box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
-  box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
+  -moz-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
 }
 /* line 657, ../../../app/stylesheets/sites/multidao.sass */
 body#site #project_review h1 {
@@ -1322,10 +1364,10 @@ body#site #project_review h1 {
 }
 /* line 662, ../../../app/stylesheets/sites/multidao.sass */
 body#site #thank_you img#project_image {
-  -moz-box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
-  box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
+  -moz-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
 }
 /* line 664, ../../../app/stylesheets/sites/multidao.sass */
 body#site #thank_you h1 {
@@ -1355,10 +1397,10 @@ body#site #back_options #backer_form #backer_credits_input {
   -ms-border-radius: 6px;
   -khtml-border-radius: 6px;
   border-radius: 6px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
-  box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
+  -moz-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
 }
 /* line 681, ../../../app/stylesheets/sites/multidao.sass */
 body#site #back_options #backer_form label {
@@ -1376,10 +1418,10 @@ body#site #back_options #backer_form li.radio ol {
   -ms-border-radius: 0px;
   -khtml-border-radius: 0px;
   border-radius: 0px;
-  -moz-box-shadow: transparent 0 0 0 0;
-  -webkit-box-shadow: transparent 0 0 0 0;
-  -o-box-shadow: transparent 0 0 0 0;
-  box-shadow: transparent 0 0 0 0;
+  -moz-box-shadow: transparent, 0, 0, 0;
+  -webkit-box-shadow: transparent, 0, 0, 0;
+  -o-box-shadow: transparent, 0, 0, 0;
+  box-shadow: transparent, 0, 0, 0;
 }
 /* line 690, ../../../app/stylesheets/sites/multidao.sass */
 body#site #back_options #backer_form li.radio ol li {
@@ -1391,10 +1433,10 @@ body#site #back_options #backer_form li.radio ol li {
   -ms-border-radius: 6px;
   -khtml-border-radius: 6px;
   border-radius: 6px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
-  box-shadow: rgba(0, 0, 0, 0.25) -2px 2px 6px 0;
+  -moz-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
   margin-bottom: 12px;
 }
 /* line 696, ../../../app/stylesheets/sites/multidao.sass */
@@ -1424,10 +1466,10 @@ body#site #back_options #backer_form li.radio ol li.selected, body#site #back_op
 }
 /* line 706, ../../../app/stylesheets/sites/multidao.sass */
 body#site #back_info img {
-  -moz-box-shadow: transparent 0 0 0 0;
-  -webkit-box-shadow: transparent 0 0 0 0;
-  -o-box-shadow: transparent 0 0 0 0;
-  box-shadow: transparent 0 0 0 0;
+  -moz-box-shadow: transparent, 0, 0, 0;
+  -webkit-box-shadow: transparent, 0, 0, 0;
+  -o-box-shadow: transparent, 0, 0, 0;
+  box-shadow: transparent, 0, 0, 0;
   border: 3px solid #dddddd;
   width: 140px;
 }

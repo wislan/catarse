@@ -1,61 +1,67 @@
-/* line 14, ../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, img, ins, kbd, q, s, samp,
+del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  outline: 0;
-  font-weight: inherit;
-  font-style: inherit;
   font-size: 100%;
-  font-family: inherit;
+  font: inherit;
   vertical-align: baseline;
 }
 
-/* line 17, ../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, ../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
-  color: black;
-  background: white;
 }
 
-/* line 19, ../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 21, ../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
-  border-collapse: separate;
+  border-collapse: collapse;
   border-spacing: 0;
-  vertical-align: middle;
 }
 
-/* line 23, ../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 25, ../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
-  quotes: "" "";
+  quotes: none;
 }
-/* line 96, ../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, ../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
+  content: none;
 }
 
-/* line 27, ../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
+}
+
+/* line 115, ../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
 }
 
 /* line 1, ../../app/stylesheets/_datepicker.sass */
@@ -147,10 +153,10 @@ a img {
   -ms-border-radius: 6px;
   -khtml-border-radius: 6px;
   border-radius: 6px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 6px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 6px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 6px 0;
-  box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 6px 0;
+  -moz-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.75);
+  -o-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.75);
   margin: 20px 0;
 }
 /* line 22, ../../app/stylesheets/_helpers.sass */
@@ -161,26 +167,26 @@ a img {
 @-webkit-keyframes pulse {
   /* line 2, ../../app/stylesheets/_locales.sass */
   0% {
-    -moz-box-shadow: rgba(0, 132, 185, 0.2) 0px 0px 12px 0;
-    -webkit-box-shadow: rgba(0, 132, 185, 0.2) 0px 0px 12px 0;
-    -o-box-shadow: rgba(0, 132, 185, 0.2) 0px 0px 12px 0;
-    box-shadow: rgba(0, 132, 185, 0.2) 0px 0px 12px 0;
+    -moz-box-shadow: 0px 0px 12px rgba(0, 132, 185, 0.2);
+    -webkit-box-shadow: 0px 0px 12px rgba(0, 132, 185, 0.2);
+    -o-box-shadow: 0px 0px 12px rgba(0, 132, 185, 0.2);
+    box-shadow: 0px 0px 12px rgba(0, 132, 185, 0.2);
   }
 
   /* line 4, ../../app/stylesheets/_locales.sass */
   50% {
-    -moz-box-shadow: rgba(0, 132, 185, 0.9) 0px 0px 12px 0;
-    -webkit-box-shadow: rgba(0, 132, 185, 0.9) 0px 0px 12px 0;
-    -o-box-shadow: rgba(0, 132, 185, 0.9) 0px 0px 12px 0;
-    box-shadow: rgba(0, 132, 185, 0.9) 0px 0px 12px 0;
+    -moz-box-shadow: 0px 0px 12px rgba(0, 132, 185, 0.9);
+    -webkit-box-shadow: 0px 0px 12px rgba(0, 132, 185, 0.9);
+    -o-box-shadow: 0px 0px 12px rgba(0, 132, 185, 0.9);
+    box-shadow: 0px 0px 12px rgba(0, 132, 185, 0.9);
   }
 
   /* line 6, ../../app/stylesheets/_locales.sass */
   100% {
-    -moz-box-shadow: rgba(0, 132, 185, 0.2) 0px 0px 12px 0;
-    -webkit-box-shadow: rgba(0, 132, 185, 0.2) 0px 0px 12px 0;
-    -o-box-shadow: rgba(0, 132, 185, 0.2) 0px 0px 12px 0;
-    box-shadow: rgba(0, 132, 185, 0.2) 0px 0px 12px 0;
+    -moz-box-shadow: 0px 0px 12px rgba(0, 132, 185, 0.2);
+    -webkit-box-shadow: 0px 0px 12px rgba(0, 132, 185, 0.2);
+    -o-box-shadow: 0px 0px 12px rgba(0, 132, 185, 0.2);
+    box-shadow: 0px 0px 12px rgba(0, 132, 185, 0.2);
   }
 }
 
@@ -247,37 +253,43 @@ a img {
   -khtml-border-radius: 8px;
   border-radius: 8px;
   background-color: #cccccc;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #dddddd), color-stop(100%, #aaaaaa));
-  background-image: -moz-linear-gradient(top, #dddddd 0%, #aaaaaa 100%);
-  background-image: linear-gradient(top, #dddddd 0%, #aaaaaa 100%);
-  -moz-box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 3px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 3px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 3px 0;
-  box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 3px 0;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dddddd), color-stop(100%, #aaaaaa));
+  background-image: -webkit-linear-gradient(top, #dddddd, #aaaaaa);
+  background-image: -moz-linear-gradient(top, #dddddd, #aaaaaa);
+  background-image: -o-linear-gradient(top, #dddddd, #aaaaaa);
+  background-image: linear-gradient(top, #dddddd, #aaaaaa);
+  -moz-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.75);
+  -o-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.75);
 }
 /* line 44, ../../app/stylesheets/_on_the_spot.sass */
 .on_the_spot_editing form button:hover {
   background-color: #dddddd;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #eeeeee), color-stop(100%, #bbbbbb));
-  background-image: -moz-linear-gradient(top, #eeeeee 0%, #bbbbbb 100%);
-  background-image: linear-gradient(top, #eeeeee 0%, #bbbbbb 100%);
-  -moz-box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 2px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 2px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 2px 0;
-  box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 2px 0;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eeeeee), color-stop(100%, #bbbbbb));
+  background-image: -webkit-linear-gradient(top, #eeeeee, #bbbbbb);
+  background-image: -moz-linear-gradient(top, #eeeeee, #bbbbbb);
+  background-image: -o-linear-gradient(top, #eeeeee, #bbbbbb);
+  background-image: linear-gradient(top, #eeeeee, #bbbbbb);
+  -moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
+  -o-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
 }
 /* line 48, ../../app/stylesheets/_on_the_spot.sass */
 .on_the_spot_editing form button:active {
   padding: 6px 9px 4px 11px;
   text-shadow: rgba(255, 255, 255, 0.85) 2px 2px 1px;
   background-color: #dddddd;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #eeeeee), color-stop(100%, #bbbbbb));
-  background-image: -moz-linear-gradient(top, #eeeeee 0%, #bbbbbb 100%);
-  background-image: linear-gradient(top, #eeeeee 0%, #bbbbbb 100%);
-  -moz-box-shadow: rgba(0, 0, 0, 0.75) 1px 1px 1px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.75) 1px 1px 1px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.75) 1px 1px 1px 0;
-  box-shadow: rgba(0, 0, 0, 0.75) 1px 1px 1px 0;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eeeeee), color-stop(100%, #bbbbbb));
+  background-image: -webkit-linear-gradient(top, #eeeeee, #bbbbbb);
+  background-image: -moz-linear-gradient(top, #eeeeee, #bbbbbb);
+  background-image: -o-linear-gradient(top, #eeeeee, #bbbbbb);
+  background-image: linear-gradient(top, #eeeeee, #bbbbbb);
+  -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75);
+  -o-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75);
 }
 /* line 54, ../../app/stylesheets/_on_the_spot.sass */
 .on_the_spot_editing form button:disabled {
@@ -285,13 +297,15 @@ a img {
   text-shadow: rgba(230, 230, 230, 0.85) 1px 1px 0px;
   padding: 5px 10px;
   background-color: #aaaaaa;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #bbbbbb), color-stop(100%, #888888));
-  background-image: -moz-linear-gradient(top, #bbbbbb 0%, #888888 100%);
-  background-image: linear-gradient(top, #bbbbbb 0%, #888888 100%);
-  -moz-box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 6px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 6px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 6px 0;
-  box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 6px 0;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #bbbbbb), color-stop(100%, #888888));
+  background-image: -webkit-linear-gradient(top, #bbbbbb, #888888);
+  background-image: -moz-linear-gradient(top, #bbbbbb, #888888);
+  background-image: -o-linear-gradient(top, #bbbbbb, #888888);
+  background-image: linear-gradient(top, #bbbbbb, #888888);
+  -moz-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.75);
+  -o-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.75);
 }
 
 /* line 1, ../../app/stylesheets/_slider.sass */
@@ -317,13 +331,15 @@ a img {
   -khtml-border-radius: 48px;
   border-radius: 48px;
   background-color: #44a546;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #51c252), color-stop(50%, #49b249), color-stop(100%, #44a546));
-  background-image: -moz-linear-gradient(top, #51c252 0%, #49b249 50%, #44a546 100%);
-  background-image: linear-gradient(top, #51c252 0%, #49b249 50%, #44a546 100%);
-  -moz-box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 4px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 4px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 4px 0;
-  box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 4px 0;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #51c252), color-stop(50%, #49b249), color-stop(100%, #44a546));
+  background-image: -webkit-linear-gradient(top, #51c252, #49b249, #44a546);
+  background-image: -moz-linear-gradient(top, #51c252, #49b249, #44a546);
+  background-image: -o-linear-gradient(top, #51c252, #49b249, #44a546);
+  background-image: linear-gradient(top, #51c252, #49b249, #44a546);
+  -moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   font-weight: bold;
   -moz-transition-property: all;
   -webkit-transition-property: all;
@@ -339,10 +355,11 @@ a img {
 }
 /* line 23, ../../app/stylesheets/_slider.sass */
 .navigation .prev:hover, .navigation .next:hover {
-  -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  transform: scale(1.1);
+  -moz-transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.1, 1.1);
+  -o-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
 }
 /* line 25, ../../app/stylesheets/_slider.sass */
 .navigation .prev:disabled, .navigation .next:disabled {
@@ -350,16 +367,19 @@ a img {
   border: 3px solid #dddddd;
   text-shadow: rgba(230, 230, 230, 0.85) 1px 1px 0px;
   background-color: #aaaaaa;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #bbbbbb), color-stop(100%, #888888));
-  background-image: -moz-linear-gradient(top, #bbbbbb 0%, #888888 100%);
-  background-image: linear-gradient(top, #bbbbbb 0%, #888888 100%);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #bbbbbb), color-stop(100%, #888888));
+  background-image: -webkit-linear-gradient(top, #bbbbbb, #888888);
+  background-image: -moz-linear-gradient(top, #bbbbbb, #888888);
+  background-image: -o-linear-gradient(top, #bbbbbb, #888888);
+  background-image: linear-gradient(top, #bbbbbb, #888888);
 }
 /* line 31, ../../app/stylesheets/_slider.sass */
 .navigation .prev:disabled:hover, .navigation .next:disabled:hover {
-  -moz-transform: scale(1);
-  -webkit-transform: scale(1);
-  -o-transform: scale(1);
-  transform: scale(1);
+  -moz-transform: scale(1, 1);
+  -webkit-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
 }
 /* line 33, ../../app/stylesheets/_slider.sass */
 .navigation .prev {
@@ -475,37 +495,43 @@ body#site form input[type=submit] {
   -khtml-border-radius: 8px;
   border-radius: 8px;
   background-color: #cccccc;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #dddddd), color-stop(100%, #aaaaaa));
-  background-image: -moz-linear-gradient(top, #dddddd 0%, #aaaaaa 100%);
-  background-image: linear-gradient(top, #dddddd 0%, #aaaaaa 100%);
-  -moz-box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 6px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 6px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 6px 0;
-  box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 6px 0;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dddddd), color-stop(100%, #aaaaaa));
+  background-image: -webkit-linear-gradient(top, #dddddd, #aaaaaa);
+  background-image: -moz-linear-gradient(top, #dddddd, #aaaaaa);
+  background-image: -o-linear-gradient(top, #dddddd, #aaaaaa);
+  background-image: linear-gradient(top, #dddddd, #aaaaaa);
+  -moz-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.75);
+  -o-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.75);
 }
 /* line 48, ../../app/stylesheets/_form.sass */
 body#site form input[type=submit]:hover {
   background-color: #dddddd;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #eeeeee), color-stop(100%, #bbbbbb));
-  background-image: -moz-linear-gradient(top, #eeeeee 0%, #bbbbbb 100%);
-  background-image: linear-gradient(top, #eeeeee 0%, #bbbbbb 100%);
-  -moz-box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 6px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 6px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 6px 0;
-  box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 6px 0;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eeeeee), color-stop(100%, #bbbbbb));
+  background-image: -webkit-linear-gradient(top, #eeeeee, #bbbbbb);
+  background-image: -moz-linear-gradient(top, #eeeeee, #bbbbbb);
+  background-image: -o-linear-gradient(top, #eeeeee, #bbbbbb);
+  background-image: linear-gradient(top, #eeeeee, #bbbbbb);
+  -moz-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.75);
+  -o-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.75);
 }
 /* line 52, ../../app/stylesheets/_form.sass */
 body#site form input[type=submit]:active {
   padding: 11px 14px 9px 16px;
   text-shadow: rgba(255, 255, 255, 0.85) 2px 2px 1px;
   background-color: #dddddd;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #eeeeee), color-stop(100%, #bbbbbb));
-  background-image: -moz-linear-gradient(top, #eeeeee 0%, #bbbbbb 100%);
-  background-image: linear-gradient(top, #eeeeee 0%, #bbbbbb 100%);
-  -moz-box-shadow: rgba(0, 0, 0, 0.75) 1px 1px 3px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.75) 1px 1px 3px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.75) 1px 1px 3px 0;
-  box-shadow: rgba(0, 0, 0, 0.75) 1px 1px 3px 0;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eeeeee), color-stop(100%, #bbbbbb));
+  background-image: -webkit-linear-gradient(top, #eeeeee, #bbbbbb);
+  background-image: -moz-linear-gradient(top, #eeeeee, #bbbbbb);
+  background-image: -o-linear-gradient(top, #eeeeee, #bbbbbb);
+  background-image: linear-gradient(top, #eeeeee, #bbbbbb);
+  -moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.75);
+  -o-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.75);
 }
 /* line 58, ../../app/stylesheets/_form.sass */
 body#site form input[type=submit]:disabled {
@@ -513,13 +539,15 @@ body#site form input[type=submit]:disabled {
   text-shadow: rgba(230, 230, 230, 0.85) 1px 1px 0px;
   padding: 10px 15px;
   background-color: #aaaaaa;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #bbbbbb), color-stop(100%, #888888));
-  background-image: -moz-linear-gradient(top, #bbbbbb 0%, #888888 100%);
-  background-image: linear-gradient(top, #bbbbbb 0%, #888888 100%);
-  -moz-box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 6px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 6px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 6px 0;
-  box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 6px 0;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #bbbbbb), color-stop(100%, #888888));
+  background-image: -webkit-linear-gradient(top, #bbbbbb, #888888);
+  background-image: -moz-linear-gradient(top, #bbbbbb, #888888);
+  background-image: -o-linear-gradient(top, #bbbbbb, #888888);
+  background-image: linear-gradient(top, #bbbbbb, #888888);
+  -moz-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.75);
+  -o-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.75);
 }
 /* line 65, ../../app/stylesheets/_form.sass */
 body#site form input.ok, body#site form textarea.ok {
@@ -619,10 +647,10 @@ body#site .flash {
   position: fixed;
   bottom: 0;
   width: 100%;
-  -moz-box-shadow: rgba(0, 0, 0, 0.75) 0px -4px 20px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.75) 0px -4px 20px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.75) 0px -4px 20px 0;
-  box-shadow: rgba(0, 0, 0, 0.75) 0px -4px 20px 0;
+  -moz-box-shadow: 0px -4px 20px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px -4px 20px rgba(0, 0, 0, 0.75);
+  -o-box-shadow: 0px -4px 20px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px -4px 20px rgba(0, 0, 0, 0.75);
   text-align: center;
   color: white;
   text-shadow: black 1px 1px 1px;
@@ -634,23 +662,29 @@ body#site .flash .wrapper {
 /* line 12, ../../app/stylesheets/_flash.sass */
 body#site .flash .success.wrapper, body#site .flash .notice.wrapper {
   background-color: #44a546;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #51c252), color-stop(50%, #49b249), color-stop(100%, #44a546));
-  background-image: -moz-linear-gradient(top, #51c252 0%, #49b249 50%, #44a546 100%);
-  background-image: linear-gradient(top, #51c252 0%, #49b249 50%, #44a546 100%);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #51c252), color-stop(50%, #49b249), color-stop(100%, #44a546));
+  background-image: -webkit-linear-gradient(top, #51c252, #49b249, #44a546);
+  background-image: -moz-linear-gradient(top, #51c252, #49b249, #44a546);
+  background-image: -o-linear-gradient(top, #51c252, #49b249, #44a546);
+  background-image: linear-gradient(top, #51c252, #49b249, #44a546);
 }
 /* line 15, ../../app/stylesheets/_flash.sass */
 body#site .flash .failure.wrapper, body#site .flash .error.wrapper {
   background-color: #aa3333;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #cc3333), color-stop(50%, #bb3333), color-stop(100%, #aa3333));
-  background-image: -moz-linear-gradient(top, #cc3333 0%, #bb3333 50%, #aa3333 100%);
-  background-image: linear-gradient(top, #cc3333 0%, #bb3333 50%, #aa3333 100%);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cc3333), color-stop(50%, #bb3333), color-stop(100%, #aa3333));
+  background-image: -webkit-linear-gradient(top, #cc3333, #bb3333, #aa3333);
+  background-image: -moz-linear-gradient(top, #cc3333, #bb3333, #aa3333);
+  background-image: -o-linear-gradient(top, #cc3333, #bb3333, #aa3333);
+  background-image: linear-gradient(top, #cc3333, #bb3333, #aa3333);
 }
 /* line 18, ../../app/stylesheets/_flash.sass */
 body#site .flash .locale.wrapper {
   background-color: #0084b9;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #0da1c3), color-stop(50%, #0591bc), color-stop(100%, #0084b9));
-  background-image: -moz-linear-gradient(top, #0da1c3 0%, #0591bc 50%, #0084b9 100%);
-  background-image: linear-gradient(top, #0da1c3 0%, #0591bc 50%, #0084b9 100%);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0da1c3), color-stop(50%, #0591bc), color-stop(100%, #0084b9));
+  background-image: -webkit-linear-gradient(top, #0da1c3, #0591bc, #0084b9);
+  background-image: -moz-linear-gradient(top, #0da1c3, #0591bc, #0084b9);
+  background-image: -o-linear-gradient(top, #0da1c3, #0591bc, #0084b9);
+  background-image: linear-gradient(top, #0da1c3, #0591bc, #0084b9);
 }
 /* line 42, ../../app/stylesheets/screen.sass */
 body#site .overlay {
@@ -665,9 +699,9 @@ body#site .overlay {
 }
 /* line 44, ../../app/stylesheets/screen.sass */
 body#site #locales {
-  opacity: 0.6;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
   position: fixed;
   right: -32px;
   top: 50%;
@@ -701,16 +735,16 @@ body#site #locales {
 /* line 23, ../../app/stylesheets/_locales.sass */
 body#site #locales:hover {
   right: 0;
-  opacity: 1;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
 }
 /* line 26, ../../app/stylesheets/_locales.sass */
 body#site #locales.notify {
   right: 0;
-  opacity: 1;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
   -webkit-animation: pulse 1.5s infinite ease-in-out;
 }
 /* line 30, ../../app/stylesheets/_locales.sass */
@@ -727,17 +761,20 @@ body#site #locales img {
 }
 /* line 33, ../../app/stylesheets/_locales.sass */
 body#site #locales img:hover {
-  -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  transform: scale(1.1);
+  -moz-transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.1, 1.1);
+  -o-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
 }
 /* line 46, ../../app/stylesheets/screen.sass */
 body#site #login {
   background-color: #44a546;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #51c252), color-stop(50%, #49b249), color-stop(100%, #44a546));
-  background-image: -moz-linear-gradient(top, #51c252 0%, #49b249 50%, #44a546 100%);
-  background-image: linear-gradient(top, #51c252 0%, #49b249 50%, #44a546 100%);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #51c252), color-stop(50%, #49b249), color-stop(100%, #44a546));
+  background-image: -webkit-linear-gradient(top, #51c252, #49b249, #44a546);
+  background-image: -moz-linear-gradient(top, #51c252, #49b249, #44a546);
+  background-image: -o-linear-gradient(top, #51c252, #49b249, #44a546);
+  background-image: linear-gradient(top, #51c252, #49b249, #44a546);
   border: 5px solid white;
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
@@ -745,10 +782,10 @@ body#site #login {
   -ms-border-radius: 8px;
   -khtml-border-radius: 8px;
   border-radius: 8px;
-  -moz-box-shadow: rgba(0, 40, 0, 0.75) 4px -4px 10px 0;
-  -webkit-box-shadow: rgba(0, 40, 0, 0.75) 4px -4px 10px 0;
-  -o-box-shadow: rgba(0, 40, 0, 0.75) 4px -4px 10px 0;
-  box-shadow: rgba(0, 40, 0, 0.75) 4px -4px 10px 0;
+  -moz-box-shadow: 4px -4px 10px rgba(0, 40, 0, 0.75);
+  -webkit-box-shadow: 4px -4px 10px rgba(0, 40, 0, 0.75);
+  -o-box-shadow: 4px -4px 10px rgba(0, 40, 0, 0.75);
+  box-shadow: 4px -4px 10px rgba(0, 40, 0, 0.75);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -792,23 +829,25 @@ body#site #login a img {
 }
 /* line 33, ../../app/stylesheets/_login.sass */
 body#site #login a img:hover, body#site #login a img:focus {
-  -moz-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  transform: scale(1.2);
+  -moz-transform: scale(1.2, 1.2);
+  -webkit-transform: scale(1.2, 1.2);
+  -o-transform: scale(1.2, 1.2);
+  -ms-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
 }
 /* line 36, ../../app/stylesheets/_login.sass */
 body#site #login a.disabled img {
-  opacity: 0.6;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
 }
 /* line 38, ../../app/stylesheets/_login.sass */
 body#site #login a.disabled img:hover, body#site #login a.disabled img:focus, body#site #login a.disabled img:active {
-  -moz-transform: scale(1);
-  -webkit-transform: scale(1);
-  -o-transform: scale(1);
-  transform: scale(1);
+  -moz-transform: scale(1, 1);
+  -webkit-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
 }
 /* line 40, ../../app/stylesheets/_login.sass */
 body#site #login a.close {
@@ -830,13 +869,15 @@ body#site #login a.close {
   margin-left: -15px;
   line-height: 22px;
   background-color: #44a546;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #51c252), color-stop(50%, #49b249), color-stop(100%, #44a546));
-  background-image: -moz-linear-gradient(top, #51c252 0%, #49b249 50%, #44a546 100%);
-  background-image: linear-gradient(top, #51c252 0%, #49b249 50%, #44a546 100%);
-  -moz-box-shadow: rgba(0, 40, 0, 0.75) 4px -4px 10px 0;
-  -webkit-box-shadow: rgba(0, 40, 0, 0.75) 4px -4px 10px 0;
-  -o-box-shadow: rgba(0, 40, 0, 0.75) 4px -4px 10px 0;
-  box-shadow: rgba(0, 40, 0, 0.75) 4px -4px 10px 0;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #51c252), color-stop(50%, #49b249), color-stop(100%, #44a546));
+  background-image: -webkit-linear-gradient(top, #51c252, #49b249, #44a546);
+  background-image: -moz-linear-gradient(top, #51c252, #49b249, #44a546);
+  background-image: -o-linear-gradient(top, #51c252, #49b249, #44a546);
+  background-image: linear-gradient(top, #51c252, #49b249, #44a546);
+  -moz-box-shadow: 4px -4px 10px rgba(0, 40, 0, 0.75);
+  -webkit-box-shadow: 4px -4px 10px rgba(0, 40, 0, 0.75);
+  -o-box-shadow: 4px -4px 10px rgba(0, 40, 0, 0.75);
+  box-shadow: 4px -4px 10px rgba(0, 40, 0, 0.75);
   font-weight: bold;
   -moz-transition-property: all;
   -webkit-transition-property: all;
@@ -850,10 +891,11 @@ body#site #login a.close {
 /* line 58, ../../app/stylesheets/_login.sass */
 body#site #login a.close:hover, body#site #login a.close:focus {
   color: white;
-  -moz-transform: scale(1.05);
-  -webkit-transform: scale(1.05);
-  -o-transform: scale(1.05);
-  transform: scale(1.05);
+  -moz-transform: scale(1.05, 1.05);
+  -webkit-transform: scale(1.05, 1.05);
+  -o-transform: scale(1.05, 1.05);
+  -ms-transform: scale(1.05, 1.05);
+  transform: scale(1.05, 1.05);
 }
 /* line 48, ../../app/stylesheets/screen.sass */
 body#site #pre_header {
@@ -863,10 +905,10 @@ body#site #pre_header {
   font-size: 16px;
   color: white;
   text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 1px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 3px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 3px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 3px 0;
-  box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 3px 0;
+  -moz-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
 }
 /* line 9, ../../app/stylesheets/_pre_header.sass */
 body#site #pre_header a {
@@ -898,10 +940,11 @@ body#site #pre_header .back_notice img.social, body#site #pre_header .notificati
 }
 /* line 24, ../../app/stylesheets/_pre_header.sass */
 body#site #pre_header .back_notice img.social:hover, body#site #pre_header .notification img.social:hover {
-  -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  transform: scale(1.1);
+  -moz-transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.1, 1.1);
+  -o-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
 }
 /* line 26, ../../app/stylesheets/_pre_header.sass */
 body#site #pre_header .back_notice a.close, body#site #pre_header .notification a.close {
@@ -962,11 +1005,10 @@ body#site #menu ul {
   margin: 0;
   padding: 0;
   border: 0;
-  outline: 0;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 51, ../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+/* line 60, ../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 body#site #menu ul li {
   list-style-image: none;
   list-style-type: none;
@@ -977,13 +1019,17 @@ body#site #menu ul li {
   padding-left: 12px;
   padding-right: 12px;
 }
-/* line 43, ../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+/* line 48, ../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 body#site #menu ul li:first-child, body#site #menu ul li.first {
-  padding-left: 0px;
+  padding-left: 0;
 }
-/* line 44, ../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
-body#site #menu ul li:last-child, body#site #menu ul li.last {
-  padding-right: 0px;
+/* line 49, ../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+body#site #menu ul li:last-child {
+  padding-right: 0;
+}
+/* line 50, ../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+body#site #menu ul li.last {
+  padding-right: 0;
 }
 /* line 8, ../../app/stylesheets/_menu.sass */
 body#site #menu ul li a {
@@ -1034,10 +1080,10 @@ body#site #user a img.dropdown {
 /* line 18, ../../app/stylesheets/_user.sass */
 body#site #user a img#display_image {
   background-color: white;
-  -moz-box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 3px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 3px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 3px 0;
-  box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 3px 0;
+  -moz-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
   margin-right: 6px;
   height: 24px;
 }
@@ -1050,10 +1096,10 @@ body#site #user .hover {
 }
 /* line 29, ../../app/stylesheets/_user.sass */
 body#site #user .hover img#display_image {
-  -moz-box-shadow: rgba(255, 255, 255, 0.7) 2px 2px 4px 0;
-  -webkit-box-shadow: rgba(255, 255, 255, 0.7) 2px 2px 4px 0;
-  -o-box-shadow: rgba(255, 255, 255, 0.7) 2px 2px 4px 0;
-  box-shadow: rgba(255, 255, 255, 0.7) 2px 2px 4px 0;
+  -moz-box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
+  -webkit-box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
+  -o-box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
+  box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
 }
 /* line 31, ../../app/stylesheets/_user.sass */
 body#site #user #user_menu {
@@ -1121,10 +1167,10 @@ body#site #content_wrapper {
   -ms-border-radius: 6px;
   -khtml-border-radius: 6px;
   border-radius: 6px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 16px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 16px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 16px 0;
-  box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 16px 0;
+  -moz-box-shadow: 5px 5px 16px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 5px 5px 16px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 5px 5px 16px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 16px rgba(0, 0, 0, 0.5);
 }
 /* line 60, ../../app/stylesheets/screen.sass */
 body#site #content_wrapper #content_header {
@@ -1140,10 +1186,10 @@ body#site #content_wrapper #content_header {
   -ms-border-top-left-radius: 6px;
   -khtml-border-top-left-radius: 6px;
   border-top-left-radius: 6px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 3px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 3px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 3px 0;
-  box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 3px 0;
+  -moz-box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
 }
 /* line 15, ../../app/stylesheets/_content.sass */
 body#site #content_wrapper #content_header h1 {
@@ -1210,6 +1256,7 @@ body#site #content_wrapper #content_header #badge:hover {
   -moz-transform: rotate(-4deg);
   -webkit-transform: rotate(-4deg);
   -o-transform: rotate(-4deg);
+  -ms-transform: rotate(-4deg);
   transform: rotate(-4deg);
 }
 /* line 62, ../../app/stylesheets/screen.sass */
@@ -1252,10 +1299,10 @@ body#site #profile_header .image {
 /* line 8, ../../app/stylesheets/_profile.sass */
 body#site #profile_header .image img {
   background-color: white;
-  -moz-box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 6px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 6px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 6px 0;
-  box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 6px 0;
+  -moz-box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.5);
   max-width: 128px;
   max-height: 128px;
 }
@@ -1313,10 +1360,10 @@ body#site #user_feed img.project {
   float: left;
   margin-right: 12px;
   width: 160px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 3px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 3px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 3px 0;
-  box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 3px 0;
+  -moz-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
 }
 /* line 55, ../../app/stylesheets/_profile.sass */
 body#site #user_feed img.social {
@@ -1334,10 +1381,11 @@ body#site #user_feed img.social {
 }
 /* line 60, ../../app/stylesheets/_profile.sass */
 body#site #user_feed img.social:hover {
-  -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  transform: scale(1.1);
+  -moz-transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.1, 1.1);
+  -o-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
 }
 /* line 62, ../../app/stylesheets/_profile.sass */
 body#site #user_feed a {
@@ -1387,10 +1435,10 @@ body#site #user_feed #gravatar_hint {
   -ms-border-radius: 12px;
   -khtml-border-radius: 12px;
   border-radius: 12px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 10px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 10px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 10px 0;
-  box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 10px 0;
+  -moz-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   margin-top: -16px;
   color: #666666;
   position: relative;
@@ -1569,11 +1617,10 @@ body#site .project_box .project_progress .progress_info ul {
   margin: 0;
   padding: 0;
   border: 0;
-  outline: 0;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 51, ../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+/* line 60, ../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 body#site .project_box .project_progress .progress_info ul li {
   list-style-image: none;
   list-style-type: none;
@@ -1584,13 +1631,17 @@ body#site .project_box .project_progress .progress_info ul li {
   padding-left: 4px;
   padding-right: 4px;
 }
-/* line 43, ../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+/* line 48, ../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 body#site .project_box .project_progress .progress_info ul li:first-child, body#site .project_box .project_progress .progress_info ul li.first {
-  padding-left: 0px;
+  padding-left: 0;
 }
-/* line 44, ../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
-body#site .project_box .project_progress .progress_info ul li:last-child, body#site .project_box .project_progress .progress_info ul li.last {
-  padding-right: 0px;
+/* line 49, ../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+body#site .project_box .project_progress .progress_info ul li:last-child {
+  padding-right: 0;
+}
+/* line 50, ../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+body#site .project_box .project_progress .progress_info ul li.last {
+  padding-right: 0;
 }
 /* line 91, ../../app/stylesheets/_projects.sass */
 body#site .progress_bar {
@@ -1633,10 +1684,10 @@ body#site #how_it_works {
   -ms-border-radius: 12px;
   -khtml-border-radius: 12px;
   border-radius: 12px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 10px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 10px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 10px 0;
-  box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 10px 0;
+  -moz-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 /* line 113, ../../app/stylesheets/_projects.sass */
 body#site #how_it_works strong {
@@ -1813,10 +1864,10 @@ body#site #project_warning {
   -ms-border-radius: 12px;
   -khtml-border-radius: 12px;
   border-radius: 12px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 10px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 10px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 10px 0;
-  box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 10px 0;
+  -moz-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   margin-top: -16px;
   color: #666666;
 }
@@ -1844,10 +1895,10 @@ body#site #project_description #project_video iframe {
   -ms-border-top-right-radius: 8px;
   -khtml-border-top-right-radius: 8px;
   border-top-right-radius: 8px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 10px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 10px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 10px 0;
-  box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 10px 0;
+  -moz-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 /* line 226, ../../app/stylesheets/_projects.sass */
 body#site #project_description #project_video #project_share {
@@ -1869,10 +1920,10 @@ body#site #project_description #project_video #project_share {
   -khtml-border-bottom-right-radius: 12px;
   border-bottom-right-radius: 12px;
   border: 2px dotted rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 10px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 10px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 10px 0;
-  box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 10px 0;
+  -moz-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   text-align: center;
   font-size: 14px;
   line-height: 32px;
@@ -1882,13 +1933,12 @@ body#site #project_description #project_video #project_share ul {
   margin: 0;
   padding: 0;
   border: 0;
-  outline: 0;
   overflow: hidden;
   *zoom: 1;
   width: 82%;
   margin: 0 auto;
 }
-/* line 51, ../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+/* line 60, ../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 body#site #project_description #project_video #project_share ul li {
   list-style-image: none;
   list-style-type: none;
@@ -1899,13 +1949,17 @@ body#site #project_description #project_video #project_share ul li {
   padding-left: 6px;
   padding-right: 6px;
 }
-/* line 43, ../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+/* line 48, ../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 body#site #project_description #project_video #project_share ul li:first-child, body#site #project_description #project_video #project_share ul li.first {
-  padding-left: 0px;
+  padding-left: 0;
 }
-/* line 44, ../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
-body#site #project_description #project_video #project_share ul li:last-child, body#site #project_description #project_video #project_share ul li.last {
-  padding-right: 0px;
+/* line 49, ../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+body#site #project_description #project_video #project_share ul li:last-child {
+  padding-right: 0;
+}
+/* line 50, ../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+body#site #project_description #project_video #project_share ul li.last {
+  padding-right: 0;
 }
 /* line 243, ../../app/stylesheets/_projects.sass */
 body#site #project_description #project_video #project_share a {
@@ -1952,9 +2006,11 @@ body#site #project_description #project_video #project_share h1 {
 /* line 263, ../../app/stylesheets/_projects.sass */
 body#site #project_description #project_video #project_embed {
   background-color: #44a546;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #51c252), color-stop(50%, #49b249), color-stop(100%, #44a546));
-  background-image: -moz-linear-gradient(top, #51c252 0%, #49b249 50%, #44a546 100%);
-  background-image: linear-gradient(top, #51c252 0%, #49b249 50%, #44a546 100%);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #51c252), color-stop(50%, #49b249), color-stop(100%, #44a546));
+  background-image: -webkit-linear-gradient(top, #51c252, #49b249, #44a546);
+  background-image: -moz-linear-gradient(top, #51c252, #49b249, #44a546);
+  background-image: -o-linear-gradient(top, #51c252, #49b249, #44a546);
+  background-image: linear-gradient(top, #51c252, #49b249, #44a546);
   border: 5px solid white;
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
@@ -1962,10 +2018,10 @@ body#site #project_description #project_video #project_embed {
   -ms-border-radius: 8px;
   -khtml-border-radius: 8px;
   border-radius: 8px;
-  -moz-box-shadow: rgba(0, 40, 0, 0.75) 4px -4px 10px 0;
-  -webkit-box-shadow: rgba(0, 40, 0, 0.75) 4px -4px 10px 0;
-  -o-box-shadow: rgba(0, 40, 0, 0.75) 4px -4px 10px 0;
-  box-shadow: rgba(0, 40, 0, 0.75) 4px -4px 10px 0;
+  -moz-box-shadow: 4px -4px 10px rgba(0, 40, 0, 0.75);
+  -webkit-box-shadow: 4px -4px 10px rgba(0, 40, 0, 0.75);
+  -o-box-shadow: 4px -4px 10px rgba(0, 40, 0, 0.75);
+  box-shadow: 4px -4px 10px rgba(0, 40, 0, 0.75);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -2013,13 +2069,15 @@ body#site #project_description #project_video #project_embed a.close {
   margin-left: -15px;
   line-height: 22px;
   background-color: #44a546;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #51c252), color-stop(50%, #49b249), color-stop(100%, #44a546));
-  background-image: -moz-linear-gradient(top, #51c252 0%, #49b249 50%, #44a546 100%);
-  background-image: linear-gradient(top, #51c252 0%, #49b249 50%, #44a546 100%);
-  -moz-box-shadow: rgba(0, 40, 0, 0.75) 4px -4px 10px 0;
-  -webkit-box-shadow: rgba(0, 40, 0, 0.75) 4px -4px 10px 0;
-  -o-box-shadow: rgba(0, 40, 0, 0.75) 4px -4px 10px 0;
-  box-shadow: rgba(0, 40, 0, 0.75) 4px -4px 10px 0;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #51c252), color-stop(50%, #49b249), color-stop(100%, #44a546));
+  background-image: -webkit-linear-gradient(top, #51c252, #49b249, #44a546);
+  background-image: -moz-linear-gradient(top, #51c252, #49b249, #44a546);
+  background-image: -o-linear-gradient(top, #51c252, #49b249, #44a546);
+  background-image: linear-gradient(top, #51c252, #49b249, #44a546);
+  -moz-box-shadow: 4px -4px 10px rgba(0, 40, 0, 0.75);
+  -webkit-box-shadow: 4px -4px 10px rgba(0, 40, 0, 0.75);
+  -o-box-shadow: 4px -4px 10px rgba(0, 40, 0, 0.75);
+  box-shadow: 4px -4px 10px rgba(0, 40, 0, 0.75);
   font-weight: bold;
   -moz-transition-property: all;
   -webkit-transition-property: all;
@@ -2033,10 +2091,11 @@ body#site #project_description #project_video #project_embed a.close {
 /* line 47, ../../app/stylesheets/_embed_modal.sass */
 body#site #project_description #project_video #project_embed a.close:hover, body#site #project_description #project_video #project_embed a.close:focus {
   color: white;
-  -moz-transform: scale(1.05);
-  -webkit-transform: scale(1.05);
-  -o-transform: scale(1.05);
-  transform: scale(1.05);
+  -moz-transform: scale(1.05, 1.05);
+  -webkit-transform: scale(1.05, 1.05);
+  -o-transform: scale(1.05, 1.05);
+  -ms-transform: scale(1.05, 1.05);
+  transform: scale(1.05, 1.05);
 }
 /* line 50, ../../app/stylesheets/_embed_modal.sass */
 body#site #project_description #project_video #project_embed #project_box_embed {
@@ -2092,11 +2151,10 @@ body#site #project_description #project_menu ul {
   margin: 0;
   padding: 0;
   border: 0;
-  outline: 0;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 51, ../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+/* line 60, ../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 body#site #project_description #project_menu ul li {
   list-style-image: none;
   list-style-type: none;
@@ -2107,13 +2165,17 @@ body#site #project_description #project_menu ul li {
   padding-left: 2px;
   padding-right: 2px;
 }
-/* line 43, ../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+/* line 48, ../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 body#site #project_description #project_menu ul li:first-child, body#site #project_description #project_menu ul li.first {
-  padding-left: 0px;
+  padding-left: 0;
 }
-/* line 44, ../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
-body#site #project_description #project_menu ul li:last-child, body#site #project_description #project_menu ul li.last {
-  padding-right: 0px;
+/* line 49, ../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+body#site #project_description #project_menu ul li:last-child {
+  padding-right: 0;
+}
+/* line 50, ../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+body#site #project_description #project_menu ul li.last {
+  padding-right: 0;
 }
 /* line 270, ../../app/stylesheets/_projects.sass */
 body#site #project_description #project_menu ul li {
@@ -2250,19 +2312,20 @@ body#site #project_description #project_comments #collection_list li .destroy a 
   -o-transition-duration: 0.3s;
   transition-duration: 0.3s;
   width: 20px;
-  opacity: 0.8;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
 }
 /* line 346, ../../app/stylesheets/_projects.sass */
 body#site #project_description #project_comments #collection_list li .destroy a img:hover, body#site #project_description #project_updates #collection_list li .destroy a img:hover {
-  opacity: 1;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-  -moz-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  transform: scale(1.2);
+  opacity: 1;
+  -moz-transform: scale(1.2, 1.2);
+  -webkit-transform: scale(1.2, 1.2);
+  -o-transform: scale(1.2, 1.2);
+  -ms-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
 }
 /* line 349, ../../app/stylesheets/_projects.sass */
 body#site #project_description #project_comments #collection_list li img.user, body#site #project_description #project_updates #collection_list li img.user {
@@ -2270,10 +2333,10 @@ body#site #project_description #project_comments #collection_list li img.user, b
   margin-right: 12px;
   margin-bottom: 0px;
   height: 38px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 3px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 3px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 3px 0;
-  box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 3px 0;
+  -moz-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
   background-color: white;
 }
 /* line 356, ../../app/stylesheets/_projects.sass */
@@ -2347,10 +2410,10 @@ body#site #project_back_info #back_project {
   background-color: rgba(179, 177, 157, 0.5);
   border: 3px solid #bdbbb1;
   border: 3px solid rgba(173, 171, 151, 0.5);
-  -moz-box-shadow: rgba(0, 0, 0, 0.5) 4px 4px 5px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 4px 4px 5px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.5) 4px 4px 5px 0;
-  box-shadow: rgba(0, 0, 0, 0.5) 4px 4px 5px 0;
+  -moz-box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
   padding: 0px;
 }
 /* line 404, ../../app/stylesheets/_projects.sass */
@@ -2419,9 +2482,11 @@ body#site #project_back_info #back_project form input[type=submit] {
   color: white;
   text-shadow: green 1px 1px 1px;
   background-color: #49b249;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #59c259), color-stop(100%, #31a232));
-  background-image: -moz-linear-gradient(top, #59c259 0%, #31a232 100%);
-  background-image: linear-gradient(top, #59c259 0%, #31a232 100%);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #59c259), color-stop(100%, #31a232));
+  background-image: -webkit-linear-gradient(top, #59c259, #31a232);
+  background-image: -moz-linear-gradient(top, #59c259, #31a232);
+  background-image: -o-linear-gradient(top, #59c259, #31a232);
+  background-image: linear-gradient(top, #59c259, #31a232);
   text-transform: uppercase;
   font-size: 16px;
   padding: 17px 10px;
@@ -2429,9 +2494,11 @@ body#site #project_back_info #back_project form input[type=submit] {
 /* line 447, ../../app/stylesheets/_projects.sass */
 body#site #project_back_info #back_project form input[type=submit]:hover {
   background-color: #59c259;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #59c259), color-stop(100%, #41b242));
-  background-image: -moz-linear-gradient(top, #59c259 0%, #41b242 100%);
-  background-image: linear-gradient(top, #59c259 0%, #41b242 100%);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #59c259), color-stop(100%, #41b242));
+  background-image: -webkit-linear-gradient(top, #59c259, #41b242);
+  background-image: -moz-linear-gradient(top, #59c259, #41b242);
+  background-image: -o-linear-gradient(top, #59c259, #41b242);
+  background-image: linear-gradient(top, #59c259, #41b242);
 }
 /* line 450, ../../app/stylesheets/_projects.sass */
 body#site #project_back_info #back_project form input[type=submit]:active {
@@ -2445,13 +2512,15 @@ body#site #project_back_info #back_project form input[type=submit]:disabled {
   font-size: 16px;
   padding: 17px 10px;
   background-color: #aaaaaa;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #bbbbbb), color-stop(100%, #888888));
-  background-image: -moz-linear-gradient(top, #bbbbbb 0%, #888888 100%);
-  background-image: linear-gradient(top, #bbbbbb 0%, #888888 100%);
-  -moz-box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 6px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 6px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 6px 0;
-  box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 6px 0;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #bbbbbb), color-stop(100%, #888888));
+  background-image: -webkit-linear-gradient(top, #bbbbbb, #888888);
+  background-image: -moz-linear-gradient(top, #bbbbbb, #888888);
+  background-image: -o-linear-gradient(top, #bbbbbb, #888888);
+  background-image: linear-gradient(top, #bbbbbb, #888888);
+  -moz-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.75);
+  -o-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.75);
 }
 /* line 461, ../../app/stylesheets/_projects.sass */
 body#site #project_back_info #rewards {
@@ -2645,10 +2714,10 @@ body#site #back_options #backer_form #backer_credits_input {
   -ms-border-radius: 12px;
   -khtml-border-radius: 12px;
   border-radius: 12px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.5) 4px 4px 5px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 4px 4px 5px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.5) 4px 4px 5px 0;
-  box-shadow: rgba(0, 0, 0, 0.5) 4px 4px 5px 0;
+  -moz-box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
   padding: 0 12px;
   margin-bottom: 32px;
 }
@@ -2683,10 +2752,10 @@ body#site #back_options #backer_form li.radio ol {
   -ms-border-radius: 12px;
   -khtml-border-radius: 12px;
   border-radius: 12px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 10px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 10px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 10px 0;
-  box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 10px 0;
+  -moz-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 /* line 602, ../../app/stylesheets/_projects.sass */
 body#site #back_options #backer_form li.radio ol li {
@@ -2797,10 +2866,10 @@ body#site #back_info {
 body#site #back_info img {
   float: left;
   width: 128px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 5px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 5px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 5px 0;
-  box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 5px 0;
+  -moz-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
   margin-bottom: 16px;
 }
 /* line 661, ../../app/stylesheets/_projects.sass */
@@ -2868,10 +2937,10 @@ body#site #project_review #credits_notice {
   -ms-border-radius: 6px;
   -khtml-border-radius: 6px;
   border-radius: 6px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 6px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 6px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 6px 0;
-  box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 6px 0;
+  -moz-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.75);
+  -o-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.75);
   margin: 32px auto 20px auto;
 }
 /* line 704, ../../app/stylesheets/_projects.sass */
@@ -2941,11 +3010,10 @@ body#site #project_review #review_form .inputs ol {
   margin: 0;
   padding: 0;
   border: 0;
-  outline: 0;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 51, ../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+/* line 60, ../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 body#site #project_review #review_form .inputs ol li {
   list-style-image: none;
   list-style-type: none;
@@ -2956,13 +3024,17 @@ body#site #project_review #review_form .inputs ol li {
   padding-left: 0px;
   padding-right: 0px;
 }
-/* line 43, ../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+/* line 48, ../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 body#site #project_review #review_form .inputs ol li:first-child, body#site #project_review #review_form .inputs ol li.first {
-  padding-left: 0px;
+  padding-left: 0;
 }
-/* line 44, ../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
-body#site #project_review #review_form .inputs ol li:last-child, body#site #project_review #review_form .inputs ol li.last {
-  padding-right: 0px;
+/* line 49, ../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+body#site #project_review #review_form .inputs ol li:last-child {
+  padding-right: 0;
+}
+/* line 50, ../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+body#site #project_review #review_form .inputs ol li.last {
+  padding-right: 0;
 }
 /* line 738, ../../app/stylesheets/_projects.sass */
 body#site #project_review #review_form .submit {
@@ -2973,10 +3045,10 @@ body#site #project_review #review_form .submit {
 body#site #project_review img#project_image {
   float: left;
   width: 128px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 5px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 5px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 5px 0;
-  box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 5px 0;
+  -moz-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
   margin-right: 20px;
 }
 /* line 746, ../../app/stylesheets/_projects.sass */
@@ -3011,10 +3083,10 @@ body#site #thank_you {
 body#site #thank_you img#project_image {
   float: left;
   width: 128px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 5px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 5px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 5px 0;
-  box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 5px 0;
+  -moz-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
   margin-right: 20px;
 }
 /* line 769, ../../app/stylesheets/_projects.sass */
@@ -3050,10 +3122,11 @@ body#site #thank_you a img {
 }
 /* line 785, ../../app/stylesheets/_projects.sass */
 body#site #thank_you a img:hover {
-  -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  transform: scale(1.1);
+  -moz-transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.1, 1.1);
+  -o-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
 }
 /* line 787, ../../app/stylesheets/_projects.sass */
 body#site #thank_you #how_it_works {
@@ -3084,10 +3157,10 @@ body#site #project_backers img.user {
   margin-right: 12px;
   margin-bottom: 0px;
   width: 48px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 3px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 3px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 3px 0;
-  box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 3px 0;
+  -moz-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
   background-color: white;
 }
 /* line 809, ../../app/stylesheets/_projects.sass */
@@ -3149,6 +3222,7 @@ body#site #project_backers ul li .badge:hover {
   -moz-transform: rotate(-4deg);
   -webkit-transform: rotate(-4deg);
   -o-transform: rotate(-4deg);
+  -ms-transform: rotate(-4deg);
   transform: rotate(-4deg);
 }
 /* line 840, ../../app/stylesheets/_projects.sass */
@@ -3268,10 +3342,10 @@ body#site #video_embed iframe {
   -ms-border-top-right-radius: 8px;
   -khtml-border-top-right-radius: 8px;
   border-top-right-radius: 8px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 10px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 10px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 10px 0;
-  box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 10px 0;
+  -moz-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 /* line 9, ../../app/stylesheets/_video_embed.sass */
 body#site #video_embed h1 {
@@ -3345,11 +3419,10 @@ body#site #footer #footer_menu ul {
   margin: 0;
   padding: 0;
   border: 0;
-  outline: 0;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 51, ../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+/* line 60, ../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 body#site #footer #footer_menu ul li {
   list-style-image: none;
   list-style-type: none;
@@ -3360,13 +3433,17 @@ body#site #footer #footer_menu ul li {
   padding-left: 12px;
   padding-right: 12px;
 }
-/* line 43, ../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+/* line 48, ../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 body#site #footer #footer_menu ul li:first-child, body#site #footer #footer_menu ul li.first {
-  padding-left: 0px;
+  padding-left: 0;
 }
-/* line 44, ../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
-body#site #footer #footer_menu ul li:last-child, body#site #footer #footer_menu ul li.last {
-  padding-right: 0px;
+/* line 49, ../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+body#site #footer #footer_menu ul li:last-child {
+  padding-right: 0;
+}
+/* line 50, ../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+body#site #footer #footer_menu ul li.last {
+  padding-right: 0;
 }
 /* line 11, ../../app/stylesheets/_footer.sass */
 body#site #footer #footer_menu ul li a {
@@ -3391,11 +3468,10 @@ body#site #footer #social_menu ul {
   margin: 0;
   padding: 0;
   border: 0;
-  outline: 0;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 51, ../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+/* line 60, ../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 body#site #footer #social_menu ul li {
   list-style-image: none;
   list-style-type: none;
@@ -3406,13 +3482,17 @@ body#site #footer #social_menu ul li {
   padding-left: 12px;
   padding-right: 12px;
 }
-/* line 43, ../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+/* line 48, ../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 body#site #footer #social_menu ul li:first-child, body#site #footer #social_menu ul li.first {
-  padding-left: 0px;
+  padding-left: 0;
 }
-/* line 44, ../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
-body#site #footer #social_menu ul li:last-child, body#site #footer #social_menu ul li.last {
-  padding-right: 0px;
+/* line 49, ../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+body#site #footer #social_menu ul li:last-child {
+  padding-right: 0;
+}
+/* line 50, ../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+body#site #footer #social_menu ul li.last {
+  padding-right: 0;
 }
 /* line 26, ../../app/stylesheets/_footer.sass */
 body#site #footer #social_menu ul li a {
@@ -3479,10 +3559,10 @@ body#site #teaser {
 }
 /* line 3, ../../app/stylesheets/_teaser.sass */
 body#site #teaser iframe {
-  -moz-box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 5px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 5px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 5px 0;
-  box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 5px 0;
+  -moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 /* line 5, ../../app/stylesheets/_teaser.sass */
 body#site #teaser h1 {
@@ -3561,10 +3641,10 @@ body#site #press {
   -ms-border-radius: 12px;
   -khtml-border-radius: 12px;
   border-radius: 12px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.5) 4px 4px 5px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 4px 4px 5px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.5) 4px 4px 5px 0;
-  box-shadow: rgba(0, 0, 0, 0.5) 4px 4px 5px 0;
+  -moz-box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
   width: 860px;
   margin: 0 auto;
   margin-top: 8px;
@@ -3600,10 +3680,11 @@ body#site #press a img {
 }
 /* line 27, ../../app/stylesheets/_press.sass */
 body#site #press a img:hover {
-  -moz-transform: scale(1.04);
-  -webkit-transform: scale(1.04);
-  -o-transform: scale(1.04);
-  transform: scale(1.04);
+  -moz-transform: scale(1.04, 1.04);
+  -webkit-transform: scale(1.04, 1.04);
+  -o-transform: scale(1.04, 1.04);
+  -ms-transform: scale(1.04, 1.04);
+  transform: scale(1.04, 1.04);
 }
 /* line 78, ../../app/stylesheets/screen.sass */
 body#site #promo_video {
@@ -3722,10 +3803,10 @@ body#site #credits #buy_credits {
   -ms-border-radius: 12px;
   -khtml-border-radius: 12px;
   border-radius: 12px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.5) 4px 4px 5px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 4px 4px 5px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.5) 4px 4px 5px 0;
-  box-shadow: rgba(0, 0, 0, 0.5) 4px 4px 5px 0;
+  -moz-box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
   padding: 20px;
   line-height: 24px;
   text-align: center;
